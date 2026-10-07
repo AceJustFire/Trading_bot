@@ -1,0 +1,1071 @@
+2026-10-06 15:58:00 [CRITICAL] (main.py:41) - Erreur de configuration : Adresse email manquante : Sur Capital.com, l'identifiant (identifier) est l'adresse email de connexion à votre compte Capital.com.
+Veuillez inscrire votre email dans le fichier .env (CAPITAL_IDENTIFIER=votre_email@domaine.com).
+2026-10-06 16:00:59 [INFO    ] (auth.py:72) - Connexion en cours à Capital.com (demo)...
+2026-10-06 16:00:59 [INFO    ] (auth.py:94) - Authentification réussie. Compte ID: 330847176266952990
+2026-10-06 16:00:59 [INFO    ] (risk_manager.py:100) - Nouvelle journée de trading (2026-10-06). Équité de référence initialisée à: 1000.00 USD
+2026-10-06 16:01:51 [INFO    ] (auth.py:72) - Connexion en cours à Capital.com (demo)...
+2026-10-06 16:01:51 [INFO    ] (auth.py:94) - Authentification réussie. Compte ID: 330847176266952990
+2026-10-06 16:01:51 [INFO    ] (risk_manager.py:100) - Nouvelle journée de trading (2026-10-06). Équité de référence initialisée à: 1000.00 USD
+2026-10-06 16:05:33 [INFO    ] (auth.py:211) - Session Capital.com clôturée proprement.
+2026-10-06 16:15:59 [INFO    ] (bot_service.py:64) - Connexion à l'API Capital.com (Mode Démo)...
+2026-10-06 16:15:59 [INFO    ] (auth.py:72) - Connexion en cours à Capital.com (demo)...
+2026-10-06 16:16:00 [INFO    ] (auth.py:94) - Authentification réussie. Compte ID: 330847176266952990
+2026-10-06 16:16:00 [INFO    ] (risk_manager.py:100) - Nouvelle journée de trading (2026-10-06). Équité de référence initialisée à: 0.00 USD
+2026-10-06 16:16:00 [INFO    ] (bot_service.py:64) - Connecté avec succès. Solde: 0.00 USD
+2026-10-06 16:16:00 [INFO    ] (bot_service.py:64) - Surveillance autonome démarrée.
+2026-10-06 16:16:35 [INFO    ] (bot_service.py:64) - Timeframe d'analyse changée : HOUR
+2026-10-06 16:16:38 [INFO    ] (bot_service.py:64) - Timeframe d'analyse changée : MINUTE_15
+2026-10-06 16:24:36 [INFO    ] (auth.py:211) - Session Capital.com clôturée proprement.
+2026-10-06 16:24:36 [INFO    ] (bot_service.py:64) - Surveillance autonome arrêtée.
+2026-10-06 16:24:46 [INFO    ] (bot_service.py:64) - Connexion à l'API Capital.com (Mode Démo)...
+2026-10-06 16:24:46 [INFO    ] (auth.py:72) - Connexion en cours à Capital.com (demo)...
+2026-10-06 16:24:46 [INFO    ] (auth.py:94) - Authentification réussie. Compte ID: 330847176266952990
+2026-10-06 16:24:46 [INFO    ] (risk_manager.py:100) - Nouvelle journée de trading (2026-10-06). Équité de référence initialisée à: 1000.00 USD
+2026-10-06 16:24:46 [INFO    ] (bot_service.py:64) - Connecté avec succès. Solde: 1000.00 USD
+2026-10-06 16:24:46 [INFO    ] (bot_service.py:64) - Surveillance autonome démarrée.
+2026-10-06 16:25:12 [INFO    ] (bot_service.py:64) - Timeframe d'analyse changée : HOUR
+2026-10-06 16:25:34 [INFO    ] (bot_service.py:64) - Timeframe d'analyse changée : MINUTE_15
+2026-10-06 16:27:40 [INFO    ] (auth.py:211) - Session Capital.com clôturée proprement.
+2026-10-06 16:27:40 [INFO    ] (bot_service.py:64) - Surveillance autonome arrêtée.
+2026-10-06 16:27:50 [INFO    ] (bot_service.py:64) - Connexion à l'API Capital.com (Mode Démo)...
+2026-10-06 16:27:50 [INFO    ] (auth.py:72) - Connexion en cours à Capital.com (demo)...
+2026-10-06 16:27:50 [INFO    ] (auth.py:94) - Authentification réussie. Compte ID: 330847176266952990
+2026-10-06 16:27:51 [INFO    ] (risk_manager.py:100) - Nouvelle journée de trading (2026-10-06). Équité de référence initialisée à: 1000.00 USD
+2026-10-06 16:27:51 [INFO    ] (bot_service.py:64) - Connecté avec succès. Solde: 1000.00 USD
+2026-10-06 16:27:51 [INFO    ] (bot_service.py:64) - Surveillance autonome démarrée.
+2026-10-06 16:27:51 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=1.75 USD | Taille=5.71 lots
+2026-10-06 16:27:51 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : BUY 5.71 lots (Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$)
+2026-10-06 16:27:51 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : BUY 5.71 lots sur GOLD | SL: 4144.6 | TP: 4175.42 | Motif: Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$
+2026-10-06 16:27:51 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:27:54 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=1.07 USD | Taille=9.34 lots
+2026-10-06 16:27:54 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : BUY 9.34 lots (Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$)
+2026-10-06 16:27:54 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : BUY 9.34 lots sur GOLD | SL: 4144.6 | TP: 4175.42 | Motif: Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$
+2026-10-06 16:27:54 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:27:56 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=1.12 USD | Taille=8.92 lots
+2026-10-06 16:27:56 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : BUY 8.92 lots (Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$)
+2026-10-06 16:27:56 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : BUY 8.92 lots sur GOLD | SL: 4144.6 | TP: 4175.42 | Motif: Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$
+2026-10-06 16:27:56 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:27:59 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=1.29 USD | Taille=7.75 lots
+2026-10-06 16:27:59 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : BUY 7.75 lots (Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$)
+2026-10-06 16:27:59 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : BUY 7.75 lots sur GOLD | SL: 4144.6 | TP: 4175.42 | Motif: Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$
+2026-10-06 16:27:59 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:28:01 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=1.71 USD | Taille=5.84 lots
+2026-10-06 16:28:01 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : BUY 5.84 lots (Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$)
+2026-10-06 16:28:01 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : BUY 5.84 lots sur GOLD | SL: 4144.6 | TP: 4175.42 | Motif: Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$
+2026-10-06 16:28:01 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:28:03 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=2.08 USD | Taille=4.8 lots
+2026-10-06 16:28:04 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : BUY 4.8 lots (Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$)
+2026-10-06 16:28:04 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : BUY 4.8 lots sur GOLD | SL: 4144.6 | TP: 4175.42 | Motif: Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$
+2026-10-06 16:28:04 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:28:06 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=1.80 USD | Taille=5.55 lots
+2026-10-06 16:28:06 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : BUY 5.55 lots (Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$)
+2026-10-06 16:28:06 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : BUY 5.55 lots sur GOLD | SL: 4144.6 | TP: 4175.42 | Motif: Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$
+2026-10-06 16:28:06 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:28:09 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=1.21 USD | Taille=8.26 lots
+2026-10-06 16:28:09 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : BUY 8.26 lots (Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$)
+2026-10-06 16:28:09 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : BUY 8.26 lots sur GOLD | SL: 4144.6 | TP: 4175.42 | Motif: Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$
+2026-10-06 16:28:09 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:28:11 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=1.31 USD | Taille=7.63 lots
+2026-10-06 16:28:11 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : BUY 7.63 lots (Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$)
+2026-10-06 16:28:11 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : BUY 7.63 lots sur GOLD | SL: 4144.6 | TP: 4175.42 | Motif: Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$
+2026-10-06 16:28:11 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:28:13 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=0.81 USD | Taille=12.34 lots
+2026-10-06 16:28:13 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : BUY 12.34 lots (Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$)
+2026-10-06 16:28:13 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : BUY 12.34 lots sur GOLD | SL: 4144.6 | TP: 4175.42 | Motif: Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$
+2026-10-06 16:28:13 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:28:16 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=0.67 USD | Taille=14.92 lots
+2026-10-06 16:28:16 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : BUY 14.92 lots (Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$)
+2026-10-06 16:28:16 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : BUY 14.92 lots sur GOLD | SL: 4144.6 | TP: 4175.42 | Motif: Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$
+2026-10-06 16:28:16 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:28:18 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=0.45 USD | Taille=22.22 lots
+2026-10-06 16:28:18 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : BUY 22.22 lots (Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$)
+2026-10-06 16:28:18 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : BUY 22.22 lots sur GOLD | SL: 4144.6 | TP: 4175.42 | Motif: Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$
+2026-10-06 16:28:18 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:28:21 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=0.31 USD | Taille=32.25 lots
+2026-10-06 16:28:21 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : BUY 32.25 lots (Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$)
+2026-10-06 16:28:21 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : BUY 32.25 lots sur GOLD | SL: 4144.6 | TP: 4175.42 | Motif: Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$
+2026-10-06 16:28:21 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:28:23 [INFO    ] (bot_service.py:64) - Signal ignoré : Spread trop élevé (0.750 > max 0.600)
+2026-10-06 16:28:26 [INFO    ] (bot_service.py:64) - Signal ignoré : Incohérence SL ACHAT : SL (4144.6) >= Prix Ask (4144.56)
+2026-10-06 16:28:28 [INFO    ] (bot_service.py:64) - Signal ignoré : Incohérence SL ACHAT : SL (4144.6) >= Prix Ask (4144.53)
+2026-10-06 16:28:30 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=0.60 USD | Taille=16.66 lots
+2026-10-06 16:28:30 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : BUY 16.66 lots (Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$)
+2026-10-06 16:28:30 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : BUY 16.66 lots sur GOLD | SL: 4144.6 | TP: 4175.42 | Motif: Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$
+2026-10-06 16:28:31 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:28:33 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=0.60 USD | Taille=16.66 lots
+2026-10-06 16:28:33 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : BUY 16.66 lots (Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$)
+2026-10-06 16:28:33 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : BUY 16.66 lots sur GOLD | SL: 4144.6 | TP: 4175.42 | Motif: Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$
+2026-10-06 16:28:33 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:28:35 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=0.49 USD | Taille=20.4 lots
+2026-10-06 16:28:35 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : BUY 20.4 lots (Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$)
+2026-10-06 16:28:35 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : BUY 20.4 lots sur GOLD | SL: 4144.6 | TP: 4175.42 | Motif: Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$
+2026-10-06 16:28:35 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:28:38 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=0.35 USD | Taille=28.57 lots
+2026-10-06 16:28:38 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : BUY 28.57 lots (Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$)
+2026-10-06 16:28:38 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : BUY 28.57 lots sur GOLD | SL: 4144.6 | TP: 4175.42 | Motif: Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$
+2026-10-06 16:28:38 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:28:40 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=0.30 USD | Taille=33.33 lots
+2026-10-06 16:28:40 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : BUY 33.33 lots (Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$)
+2026-10-06 16:28:40 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : BUY 33.33 lots sur GOLD | SL: 4144.6 | TP: 4175.42 | Motif: Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$
+2026-10-06 16:28:40 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:28:43 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=0.28 USD | Taille=35.71 lots
+2026-10-06 16:28:43 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : BUY 35.71 lots (Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$)
+2026-10-06 16:28:43 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : BUY 35.71 lots sur GOLD | SL: 4144.6 | TP: 4175.42 | Motif: Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$
+2026-10-06 16:28:43 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:28:45 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=0.79 USD | Taille=12.65 lots
+2026-10-06 16:28:45 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : BUY 12.65 lots (Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$)
+2026-10-06 16:28:45 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : BUY 12.65 lots sur GOLD | SL: 4144.6 | TP: 4175.42 | Motif: Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$
+2026-10-06 16:28:45 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:28:48 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=0.55 USD | Taille=18.18 lots
+2026-10-06 16:28:48 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : BUY 18.18 lots (Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$)
+2026-10-06 16:28:48 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : BUY 18.18 lots sur GOLD | SL: 4144.6 | TP: 4175.42 | Motif: Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$
+2026-10-06 16:28:48 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:28:50 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=0.63 USD | Taille=15.87 lots
+2026-10-06 16:28:50 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : BUY 15.87 lots (Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$)
+2026-10-06 16:28:50 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : BUY 15.87 lots sur GOLD | SL: 4144.6 | TP: 4175.42 | Motif: Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$
+2026-10-06 16:28:50 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:28:53 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=0.47 USD | Taille=21.27 lots
+2026-10-06 16:28:53 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : BUY 21.27 lots (Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$)
+2026-10-06 16:28:53 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : BUY 21.27 lots sur GOLD | SL: 4144.6 | TP: 4175.42 | Motif: Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$
+2026-10-06 16:28:53 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:28:55 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=0.53 USD | Taille=18.86 lots
+2026-10-06 16:28:55 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : BUY 18.86 lots (Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$)
+2026-10-06 16:28:55 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : BUY 18.86 lots sur GOLD | SL: 4144.6 | TP: 4175.42 | Motif: Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$
+2026-10-06 16:28:55 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:28:58 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=0.49 USD | Taille=20.4 lots
+2026-10-06 16:28:58 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : BUY 20.4 lots (Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$)
+2026-10-06 16:28:58 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : BUY 20.4 lots sur GOLD | SL: 4144.6 | TP: 4175.42 | Motif: Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$
+2026-10-06 16:28:58 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:29:00 [INFO    ] (bot_service.py:64) - Signal ignoré : Spread trop élevé (0.750 > max 0.600)
+2026-10-06 16:29:02 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=0.46 USD | Taille=21.73 lots
+2026-10-06 16:29:02 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : BUY 21.73 lots (Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$)
+2026-10-06 16:29:02 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : BUY 21.73 lots sur GOLD | SL: 4144.6 | TP: 4175.42 | Motif: Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$
+2026-10-06 16:29:03 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:29:05 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=0.44 USD | Taille=22.72 lots
+2026-10-06 16:29:05 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : BUY 22.72 lots (Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$)
+2026-10-06 16:29:05 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : BUY 22.72 lots sur GOLD | SL: 4144.6 | TP: 4175.42 | Motif: Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$
+2026-10-06 16:29:05 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:29:08 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=0.31 USD | Taille=32.25 lots
+2026-10-06 16:29:08 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : BUY 32.25 lots (Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$)
+2026-10-06 16:29:08 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : BUY 32.25 lots sur GOLD | SL: 4144.6 | TP: 4175.42 | Motif: Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$
+2026-10-06 16:29:08 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:29:10 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=0.33 USD | Taille=30.3 lots
+2026-10-06 16:29:10 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : BUY 30.3 lots (Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$)
+2026-10-06 16:29:10 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : BUY 30.3 lots sur GOLD | SL: 4144.6 | TP: 4175.42 | Motif: Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$
+2026-10-06 16:29:10 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:29:12 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=0.27 USD | Taille=37.03 lots
+2026-10-06 16:29:12 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : BUY 37.03 lots (Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$)
+2026-10-06 16:29:12 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : BUY 37.03 lots sur GOLD | SL: 4144.6 | TP: 4175.42 | Motif: Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$
+2026-10-06 16:29:12 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:29:15 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=0.52 USD | Taille=19.23 lots
+2026-10-06 16:29:15 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : BUY 19.23 lots (Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$)
+2026-10-06 16:29:15 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : BUY 19.23 lots sur GOLD | SL: 4144.6 | TP: 4175.42 | Motif: Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$
+2026-10-06 16:29:15 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:29:17 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=0.76 USD | Taille=13.15 lots
+2026-10-06 16:29:17 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : BUY 13.15 lots (Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$)
+2026-10-06 16:29:17 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : BUY 13.15 lots sur GOLD | SL: 4144.6 | TP: 4175.42 | Motif: Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$
+2026-10-06 16:29:17 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:29:20 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=1.01 USD | Taille=9.9 lots
+2026-10-06 16:29:20 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : BUY 9.9 lots (Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$)
+2026-10-06 16:29:20 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : BUY 9.9 lots sur GOLD | SL: 4144.6 | TP: 4175.42 | Motif: Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$
+2026-10-06 16:29:20 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:29:22 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=0.74 USD | Taille=13.51 lots
+2026-10-06 16:29:22 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : BUY 13.51 lots (Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$)
+2026-10-06 16:29:22 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : BUY 13.51 lots sur GOLD | SL: 4144.6 | TP: 4175.42 | Motif: Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$
+2026-10-06 16:29:22 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:29:25 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=1.02 USD | Taille=9.8 lots
+2026-10-06 16:29:25 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : BUY 9.8 lots (Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$)
+2026-10-06 16:29:25 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : BUY 9.8 lots sur GOLD | SL: 4144.6 | TP: 4175.42 | Motif: Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$
+2026-10-06 16:29:25 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:29:27 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=1.01 USD | Taille=9.9 lots
+2026-10-06 16:29:27 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : BUY 9.9 lots (Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$)
+2026-10-06 16:29:27 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : BUY 9.9 lots sur GOLD | SL: 4144.6 | TP: 4175.42 | Motif: Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$
+2026-10-06 16:29:27 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:29:30 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=0.80 USD | Taille=12.5 lots
+2026-10-06 16:29:30 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : BUY 12.5 lots (Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$)
+2026-10-06 16:29:30 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : BUY 12.5 lots sur GOLD | SL: 4144.6 | TP: 4175.42 | Motif: Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$
+2026-10-06 16:29:30 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:29:32 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=0.81 USD | Taille=12.34 lots
+2026-10-06 16:29:32 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : BUY 12.34 lots (Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$)
+2026-10-06 16:29:32 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : BUY 12.34 lots sur GOLD | SL: 4144.6 | TP: 4175.42 | Motif: Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$
+2026-10-06 16:29:32 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:29:35 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=0.80 USD | Taille=12.5 lots
+2026-10-06 16:29:35 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : BUY 12.5 lots (Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$)
+2026-10-06 16:29:35 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : BUY 12.5 lots sur GOLD | SL: 4144.6 | TP: 4175.42 | Motif: Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$
+2026-10-06 16:29:35 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:29:37 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=0.98 USD | Taille=10.2 lots
+2026-10-06 16:29:37 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : BUY 10.2 lots (Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$)
+2026-10-06 16:29:37 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : BUY 10.2 lots sur GOLD | SL: 4144.6 | TP: 4175.42 | Motif: Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$
+2026-10-06 16:29:37 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:29:40 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=1.18 USD | Taille=8.47 lots
+2026-10-06 16:29:40 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : BUY 8.47 lots (Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$)
+2026-10-06 16:29:40 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : BUY 8.47 lots sur GOLD | SL: 4144.6 | TP: 4175.42 | Motif: Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$
+2026-10-06 16:29:40 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:29:42 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=1.68 USD | Taille=5.95 lots
+2026-10-06 16:29:42 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : BUY 5.95 lots (Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$)
+2026-10-06 16:29:42 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : BUY 5.95 lots sur GOLD | SL: 4144.6 | TP: 4175.42 | Motif: Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$
+2026-10-06 16:29:42 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:29:44 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=1.30 USD | Taille=7.69 lots
+2026-10-06 16:29:44 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : BUY 7.69 lots (Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$)
+2026-10-06 16:29:44 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : BUY 7.69 lots sur GOLD | SL: 4144.6 | TP: 4175.42 | Motif: Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$
+2026-10-06 16:29:45 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:29:47 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=1.45 USD | Taille=6.89 lots
+2026-10-06 16:29:47 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : BUY 6.89 lots (Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$)
+2026-10-06 16:29:47 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : BUY 6.89 lots sur GOLD | SL: 4144.6 | TP: 4175.42 | Motif: Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$
+2026-10-06 16:29:47 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:29:49 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=1.96 USD | Taille=5.1 lots
+2026-10-06 16:29:49 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : BUY 5.1 lots (Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$)
+2026-10-06 16:29:49 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : BUY 5.1 lots sur GOLD | SL: 4144.6 | TP: 4175.42 | Motif: Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$
+2026-10-06 16:29:49 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:29:52 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=1.73 USD | Taille=5.78 lots
+2026-10-06 16:29:52 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : BUY 5.78 lots (Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$)
+2026-10-06 16:29:52 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : BUY 5.78 lots sur GOLD | SL: 4144.6 | TP: 4175.42 | Motif: Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$
+2026-10-06 16:29:52 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:29:54 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=1.74 USD | Taille=5.74 lots
+2026-10-06 16:29:54 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : BUY 5.74 lots (Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$)
+2026-10-06 16:29:54 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : BUY 5.74 lots sur GOLD | SL: 4144.6 | TP: 4175.42 | Motif: Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$
+2026-10-06 16:29:54 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:29:57 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=1.73 USD | Taille=5.78 lots
+2026-10-06 16:29:57 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : BUY 5.78 lots (Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$)
+2026-10-06 16:29:57 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : BUY 5.78 lots sur GOLD | SL: 4144.6 | TP: 4175.42 | Motif: Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$
+2026-10-06 16:29:57 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:29:59 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=1.71 USD | Taille=5.84 lots
+2026-10-06 16:29:59 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : BUY 5.84 lots (Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$)
+2026-10-06 16:29:59 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : BUY 5.84 lots sur GOLD | SL: 4144.6 | TP: 4175.42 | Motif: Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$
+2026-10-06 16:29:59 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:30:02 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=1.95 USD | Taille=5.12 lots
+2026-10-06 16:30:02 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : BUY 5.12 lots (Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$)
+2026-10-06 16:30:02 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : BUY 5.12 lots sur GOLD | SL: 4144.6 | TP: 4175.42 | Motif: Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$
+2026-10-06 16:30:02 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:30:04 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=1.82 USD | Taille=5.49 lots
+2026-10-06 16:30:04 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : BUY 5.49 lots (Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$)
+2026-10-06 16:30:04 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : BUY 5.49 lots sur GOLD | SL: 4144.6 | TP: 4175.42 | Motif: Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$
+2026-10-06 16:30:04 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:30:07 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=1.44 USD | Taille=6.94 lots
+2026-10-06 16:30:07 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : BUY 6.94 lots (Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$)
+2026-10-06 16:30:07 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : BUY 6.94 lots sur GOLD | SL: 4144.6 | TP: 4175.42 | Motif: Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$
+2026-10-06 16:30:07 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:30:09 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=0.98 USD | Taille=10.2 lots
+2026-10-06 16:30:09 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : BUY 10.2 lots (Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$)
+2026-10-06 16:30:09 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : BUY 10.2 lots sur GOLD | SL: 4144.6 | TP: 4175.42 | Motif: Opportunité ACHAT Actif : Flux haussier, RSI 47.4 en poussée, ATR 6.85$
+2026-10-06 16:30:09 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:30:12 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=16.60 USD | Taille=0.6 lots
+2026-10-06 16:30:12 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 0.6 lots (Opportunité VENTE Active : Flux baissier, RSI 41.3 en baisse, ATR 7.01$)
+2026-10-06 16:30:12 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 0.6 lots sur GOLD | SL: 4160.99 | TP: 4129.46 | Motif: Opportunité VENTE Active : Flux baissier, RSI 41.3 en baisse, ATR 7.01$
+2026-10-06 16:30:12 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:30:14 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=16.69 USD | Taille=0.59 lots
+2026-10-06 16:30:14 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 0.59 lots (Opportunité VENTE Active : Flux baissier, RSI 41.3 en baisse, ATR 7.01$)
+2026-10-06 16:30:14 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 0.59 lots sur GOLD | SL: 4160.99 | TP: 4129.46 | Motif: Opportunité VENTE Active : Flux baissier, RSI 41.3 en baisse, ATR 7.01$
+2026-10-06 16:30:14 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:30:17 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=12.81 USD | Taille=0.78 lots
+2026-10-06 16:30:17 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 0.78 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:30:17 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 0.78 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:30:17 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:30:19 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=13.26 USD | Taille=0.75 lots
+2026-10-06 16:30:19 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 0.75 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:30:19 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 0.75 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:30:19 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:30:22 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=13.10 USD | Taille=0.76 lots
+2026-10-06 16:30:22 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 0.76 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:30:22 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 0.76 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:30:22 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:30:24 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=12.55 USD | Taille=0.79 lots
+2026-10-06 16:30:24 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 0.79 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:30:24 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 0.79 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:30:24 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:30:26 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=12.79 USD | Taille=0.78 lots
+2026-10-06 16:30:26 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 0.78 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:30:26 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 0.78 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:30:27 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:30:29 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=13.18 USD | Taille=0.75 lots
+2026-10-06 16:30:29 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 0.75 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:30:29 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 0.75 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:30:29 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:30:31 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=13.38 USD | Taille=0.74 lots
+2026-10-06 16:30:31 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 0.74 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:30:31 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 0.74 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:30:31 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:30:34 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=13.36 USD | Taille=0.74 lots
+2026-10-06 16:30:34 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 0.74 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:30:34 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 0.74 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:30:34 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:30:36 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=13.07 USD | Taille=0.76 lots
+2026-10-06 16:30:36 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 0.76 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:30:36 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 0.76 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:30:36 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:30:39 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=12.44 USD | Taille=0.8 lots
+2026-10-06 16:30:39 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 0.8 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:30:39 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 0.8 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:30:39 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:30:41 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=12.20 USD | Taille=0.81 lots
+2026-10-06 16:30:41 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 0.81 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:30:41 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 0.81 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:30:41 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:30:44 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=12.09 USD | Taille=0.82 lots
+2026-10-06 16:30:44 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 0.82 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:30:44 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 0.82 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:30:44 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:30:46 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=12.01 USD | Taille=0.83 lots
+2026-10-06 16:30:46 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 0.83 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:30:46 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 0.83 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:30:46 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:30:49 [INFO    ] (bot_service.py:64) - Signal ignoré : Spread trop élevé (0.750 > max 0.600)
+2026-10-06 16:30:51 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=12.39 USD | Taille=0.8 lots
+2026-10-06 16:30:51 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 0.8 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:30:51 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 0.8 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:30:51 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:30:54 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=12.57 USD | Taille=0.79 lots
+2026-10-06 16:30:54 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 0.79 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:30:54 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 0.79 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:30:54 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:30:56 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=12.51 USD | Taille=0.79 lots
+2026-10-06 16:30:56 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 0.79 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:30:56 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 0.79 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:30:56 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:30:58 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=12.44 USD | Taille=0.8 lots
+2026-10-06 16:30:58 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 0.8 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:30:58 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 0.8 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:30:59 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:31:01 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=12.56 USD | Taille=0.79 lots
+2026-10-06 16:31:01 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 0.79 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:31:01 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 0.79 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:31:01 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:31:03 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=12.16 USD | Taille=0.82 lots
+2026-10-06 16:31:03 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 0.82 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:31:03 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 0.82 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:31:03 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:31:06 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=11.52 USD | Taille=0.86 lots
+2026-10-06 16:31:06 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 0.86 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:31:06 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 0.86 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:31:06 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:31:08 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=11.38 USD | Taille=0.87 lots
+2026-10-06 16:31:08 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 0.87 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:31:08 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 0.87 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:31:09 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:31:11 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=11.00 USD | Taille=0.9 lots
+2026-10-06 16:31:11 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 0.9 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:31:11 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 0.9 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:31:11 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:31:13 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=10.90 USD | Taille=0.91 lots
+2026-10-06 16:31:13 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 0.91 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:31:13 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 0.91 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:31:13 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:31:16 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=11.09 USD | Taille=0.9 lots
+2026-10-06 16:31:16 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 0.9 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:31:16 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 0.9 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:31:16 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:31:18 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=10.98 USD | Taille=0.91 lots
+2026-10-06 16:31:18 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 0.91 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:31:18 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 0.91 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:31:18 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:31:21 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=11.55 USD | Taille=0.86 lots
+2026-10-06 16:31:21 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 0.86 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:31:21 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 0.86 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:31:21 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:31:23 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=11.60 USD | Taille=0.86 lots
+2026-10-06 16:31:23 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 0.86 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:31:23 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 0.86 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:31:23 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:31:26 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=11.30 USD | Taille=0.88 lots
+2026-10-06 16:31:26 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 0.88 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:31:26 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 0.88 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:31:26 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:31:28 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=11.33 USD | Taille=0.88 lots
+2026-10-06 16:31:28 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 0.88 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:31:28 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 0.88 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:31:28 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:31:31 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=10.85 USD | Taille=0.92 lots
+2026-10-06 16:31:31 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 0.92 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:31:31 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 0.92 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:31:31 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:31:33 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=11.18 USD | Taille=0.89 lots
+2026-10-06 16:31:33 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 0.89 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:31:33 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 0.89 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:31:33 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:31:36 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=11.09 USD | Taille=0.9 lots
+2026-10-06 16:31:36 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 0.9 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:31:36 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 0.9 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:31:36 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:31:38 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=11.48 USD | Taille=0.87 lots
+2026-10-06 16:31:38 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 0.87 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:31:38 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 0.87 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:31:38 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:31:40 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=11.50 USD | Taille=0.86 lots
+2026-10-06 16:31:40 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 0.86 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:31:40 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 0.86 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:31:41 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:31:43 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=11.45 USD | Taille=0.87 lots
+2026-10-06 16:31:43 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 0.87 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:31:43 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 0.87 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:31:43 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:31:45 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=11.43 USD | Taille=0.87 lots
+2026-10-06 16:31:45 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 0.87 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:31:45 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 0.87 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:31:45 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:31:48 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=11.10 USD | Taille=0.9 lots
+2026-10-06 16:31:48 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 0.9 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:31:48 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 0.9 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:31:48 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:31:50 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=11.36 USD | Taille=0.88 lots
+2026-10-06 16:31:50 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 0.88 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:31:50 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 0.88 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:31:50 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:31:53 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=11.31 USD | Taille=0.88 lots
+2026-10-06 16:31:53 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 0.88 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:31:53 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 0.88 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:31:53 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:31:55 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=10.94 USD | Taille=0.91 lots
+2026-10-06 16:31:55 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 0.91 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:31:55 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 0.91 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:31:55 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:31:58 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=10.96 USD | Taille=0.91 lots
+2026-10-06 16:31:58 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 0.91 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:31:58 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 0.91 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:31:58 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:32:00 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=11.17 USD | Taille=0.89 lots
+2026-10-06 16:32:00 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 0.89 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:32:00 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 0.89 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:32:00 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:32:03 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=11.12 USD | Taille=0.89 lots
+2026-10-06 16:32:03 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 0.89 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:32:03 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 0.89 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:32:03 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:32:05 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=11.48 USD | Taille=0.87 lots
+2026-10-06 16:32:05 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 0.87 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:32:05 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 0.87 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:32:05 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:32:08 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=12.05 USD | Taille=0.82 lots
+2026-10-06 16:32:08 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 0.82 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:32:08 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 0.82 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:32:08 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:32:10 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=11.92 USD | Taille=0.83 lots
+2026-10-06 16:32:10 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 0.83 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:32:10 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 0.83 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:32:10 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:32:13 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=11.66 USD | Taille=0.85 lots
+2026-10-06 16:32:13 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 0.85 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:32:13 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 0.85 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:32:13 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:32:15 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=11.73 USD | Taille=0.85 lots
+2026-10-06 16:32:15 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 0.85 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:32:15 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 0.85 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:32:15 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:32:18 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=11.68 USD | Taille=0.85 lots
+2026-10-06 16:32:18 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 0.85 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:32:18 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 0.85 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:32:18 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:32:20 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=11.77 USD | Taille=0.84 lots
+2026-10-06 16:32:20 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 0.84 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:32:20 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 0.84 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:32:20 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:32:23 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=11.49 USD | Taille=0.87 lots
+2026-10-06 16:32:23 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 0.87 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:32:23 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 0.87 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:32:23 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:32:25 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=11.74 USD | Taille=0.85 lots
+2026-10-06 16:32:25 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 0.85 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:32:25 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 0.85 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:32:25 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:32:28 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=11.72 USD | Taille=0.85 lots
+2026-10-06 16:32:28 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 0.85 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:32:28 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 0.85 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:32:28 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:32:30 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=11.52 USD | Taille=0.86 lots
+2026-10-06 16:32:30 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 0.86 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:32:30 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 0.86 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:32:30 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:32:32 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=11.01 USD | Taille=0.9 lots
+2026-10-06 16:32:32 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 0.9 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:32:32 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 0.9 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:32:33 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:32:35 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=11.12 USD | Taille=0.89 lots
+2026-10-06 16:32:35 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 0.89 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:32:35 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 0.89 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:32:35 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:32:37 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=10.86 USD | Taille=0.92 lots
+2026-10-06 16:32:37 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 0.92 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:32:37 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 0.92 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:32:37 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:32:40 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=10.04 USD | Taille=0.99 lots
+2026-10-06 16:32:40 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 0.99 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:32:40 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 0.99 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:32:40 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:32:42 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=10.62 USD | Taille=0.94 lots
+2026-10-06 16:32:42 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 0.94 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:32:42 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 0.94 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:32:42 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:32:45 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=10.61 USD | Taille=0.94 lots
+2026-10-06 16:32:45 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 0.94 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:32:45 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 0.94 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:32:45 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:32:47 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=10.67 USD | Taille=0.93 lots
+2026-10-06 16:32:47 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 0.93 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:32:47 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 0.93 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:32:47 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:32:50 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=10.50 USD | Taille=0.95 lots
+2026-10-06 16:32:50 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 0.95 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:32:50 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 0.95 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:32:50 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:32:52 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=10.46 USD | Taille=0.95 lots
+2026-10-06 16:32:52 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 0.95 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:32:52 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 0.95 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:32:52 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:32:55 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=10.78 USD | Taille=0.92 lots
+2026-10-06 16:32:55 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 0.92 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:32:55 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 0.92 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:32:55 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:32:57 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=10.16 USD | Taille=0.98 lots
+2026-10-06 16:32:57 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 0.98 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:32:57 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 0.98 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:32:57 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:33:00 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=9.82 USD | Taille=1.01 lots
+2026-10-06 16:33:00 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 1.01 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:33:00 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 1.01 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:33:00 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:33:02 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=10.31 USD | Taille=0.96 lots
+2026-10-06 16:33:02 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 0.96 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:33:02 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 0.96 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:33:02 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:33:05 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=10.58 USD | Taille=0.94 lots
+2026-10-06 16:33:05 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 0.94 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:33:05 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 0.94 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:33:05 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:33:07 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=10.57 USD | Taille=0.94 lots
+2026-10-06 16:33:07 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 0.94 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:33:07 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 0.94 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:33:07 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:33:09 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=10.70 USD | Taille=0.93 lots
+2026-10-06 16:33:09 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 0.93 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:33:09 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 0.93 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:33:10 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:33:12 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=10.59 USD | Taille=0.94 lots
+2026-10-06 16:33:12 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 0.94 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:33:12 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 0.94 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:33:12 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:33:14 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=10.46 USD | Taille=0.95 lots
+2026-10-06 16:33:14 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 0.95 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:33:14 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 0.95 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:33:14 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:33:17 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=10.16 USD | Taille=0.98 lots
+2026-10-06 16:33:17 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 0.98 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:33:17 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 0.98 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:33:17 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:33:19 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=10.00 USD | Taille=1.0 lots
+2026-10-06 16:33:19 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 1.0 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:33:19 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 1.0 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:33:19 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:33:22 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=9.73 USD | Taille=1.02 lots
+2026-10-06 16:33:22 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 1.02 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:33:22 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 1.02 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:33:22 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:33:24 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=10.17 USD | Taille=0.98 lots
+2026-10-06 16:33:24 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 0.98 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:33:24 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 0.98 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:33:24 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:33:27 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=9.98 USD | Taille=1.0 lots
+2026-10-06 16:33:27 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 1.0 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:33:27 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 1.0 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:33:27 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:33:29 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=9.95 USD | Taille=1.0 lots
+2026-10-06 16:33:29 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 1.0 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:33:29 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 1.0 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:33:29 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:33:32 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=9.86 USD | Taille=1.01 lots
+2026-10-06 16:33:32 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 1.01 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:33:32 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 1.01 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:33:32 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:33:34 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=9.59 USD | Taille=1.04 lots
+2026-10-06 16:33:34 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 1.04 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:33:34 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 1.04 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:33:34 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:33:36 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=9.38 USD | Taille=1.06 lots
+2026-10-06 16:33:36 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 1.06 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:33:36 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 1.06 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:33:37 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:33:39 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=9.08 USD | Taille=1.1 lots
+2026-10-06 16:33:39 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 1.1 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:33:39 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 1.1 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:33:39 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:33:41 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=1000.00 USD | Risque max=10.00 USD | Distance SL=9.19 USD | Taille=1.08 lots
+2026-10-06 16:33:41 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 1.08 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:33:41 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 1.08 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:33:41 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:33:44 [INFO    ] (bot_service.py:64) - Signal ignoré : Spread trop élevé (0.750 > max 0.600)
+2026-10-06 16:33:46 [INFO    ] (bot_service.py:64) - Signal ignoré : Spread trop élevé (0.750 > max 0.600)
+2026-10-06 16:33:49 [INFO    ] (bot_service.py:64) - Signal ignoré : Spread trop élevé (0.750 > max 0.600)
+2026-10-06 16:33:51 [INFO    ] (bot_service.py:64) - Signal ignoré : Spread trop élevé (0.750 > max 0.600)
+2026-10-06 16:33:54 [INFO    ] (bot_service.py:64) - Signal ignoré : Spread trop élevé (0.750 > max 0.600)
+2026-10-06 16:33:56 [INFO    ] (bot_service.py:64) - Signal ignoré : Spread trop élevé (0.750 > max 0.600)
+2026-10-06 16:33:58 [INFO    ] (bot_service.py:64) - Signal ignoré : Spread trop élevé (0.750 > max 0.600)
+2026-10-06 16:34:01 [INFO    ] (bot_service.py:64) - Signal ignoré : Spread trop élevé (0.750 > max 0.600)
+2026-10-06 16:34:03 [INFO    ] (bot_service.py:64) - Signal ignoré : Spread trop élevé (0.750 > max 0.600)
+2026-10-06 16:34:06 [INFO    ] (bot_service.py:64) - Signal ignoré : Spread trop élevé (0.750 > max 0.600)
+2026-10-06 16:34:08 [INFO    ] (bot_service.py:64) - Signal ignoré : Spread trop élevé (0.750 > max 0.600)
+2026-10-06 16:34:10 [INFO    ] (bot_service.py:64) - Signal ignoré : Spread trop élevé (0.750 > max 0.600)
+2026-10-06 16:34:13 [INFO    ] (bot_service.py:64) - Signal ignoré : Spread trop élevé (0.750 > max 0.600)
+2026-10-06 16:34:15 [INFO    ] (bot_service.py:64) - Signal ignoré : Spread trop élevé (0.750 > max 0.600)
+2026-10-06 16:34:18 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=999.93 USD | Risque max=10.00 USD | Distance SL=8.74 USD | Taille=1.14 lots
+2026-10-06 16:34:18 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 1.14 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:34:18 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 1.14 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:34:18 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:34:20 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=999.93 USD | Risque max=10.00 USD | Distance SL=8.30 USD | Taille=1.2 lots
+2026-10-06 16:34:20 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 1.2 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:34:20 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 1.2 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:34:20 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:34:23 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=999.93 USD | Risque max=10.00 USD | Distance SL=8.41 USD | Taille=1.18 lots
+2026-10-06 16:34:23 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 1.18 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:34:23 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 1.18 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:34:23 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:34:25 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=999.93 USD | Risque max=10.00 USD | Distance SL=8.18 USD | Taille=1.22 lots
+2026-10-06 16:34:25 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 1.22 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:34:25 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 1.22 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:34:25 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:34:27 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=999.93 USD | Risque max=10.00 USD | Distance SL=7.80 USD | Taille=1.28 lots
+2026-10-06 16:34:27 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 1.28 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:34:27 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 1.28 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:34:28 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:34:30 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=999.93 USD | Risque max=10.00 USD | Distance SL=7.67 USD | Taille=1.3 lots
+2026-10-06 16:34:30 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 1.3 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:34:30 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 1.3 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:34:30 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:34:32 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=999.93 USD | Risque max=10.00 USD | Distance SL=7.54 USD | Taille=1.32 lots
+2026-10-06 16:34:32 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 1.32 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:34:32 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 1.32 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:34:32 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:34:35 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=999.93 USD | Risque max=10.00 USD | Distance SL=7.40 USD | Taille=1.35 lots
+2026-10-06 16:34:35 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 1.35 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:34:35 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 1.35 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:34:35 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:34:37 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=999.93 USD | Risque max=10.00 USD | Distance SL=7.35 USD | Taille=1.36 lots
+2026-10-06 16:34:37 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 1.36 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:34:37 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 1.36 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:34:37 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:34:40 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=999.93 USD | Risque max=10.00 USD | Distance SL=7.10 USD | Taille=1.4 lots
+2026-10-06 16:34:40 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 1.4 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:34:40 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 1.4 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:34:40 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:34:42 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=999.93 USD | Risque max=10.00 USD | Distance SL=6.92 USD | Taille=1.44 lots
+2026-10-06 16:34:42 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 1.44 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:34:42 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 1.44 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:34:42 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:34:45 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=999.93 USD | Risque max=10.00 USD | Distance SL=6.67 USD | Taille=1.49 lots
+2026-10-06 16:34:45 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 1.49 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:34:45 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 1.49 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:34:45 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:34:47 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=999.93 USD | Risque max=10.00 USD | Distance SL=6.81 USD | Taille=1.46 lots
+2026-10-06 16:34:47 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 1.46 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:34:47 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 1.46 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:34:47 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:34:50 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=999.93 USD | Risque max=10.00 USD | Distance SL=6.63 USD | Taille=1.5 lots
+2026-10-06 16:34:50 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 1.5 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:34:50 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 1.5 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:34:50 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:34:52 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=999.93 USD | Risque max=10.00 USD | Distance SL=6.33 USD | Taille=1.57 lots
+2026-10-06 16:34:52 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 1.57 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:34:52 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 1.57 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:34:52 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:34:55 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=999.93 USD | Risque max=10.00 USD | Distance SL=6.26 USD | Taille=1.59 lots
+2026-10-06 16:34:55 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 1.59 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:34:55 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 1.59 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:34:55 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:34:57 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=999.93 USD | Risque max=10.00 USD | Distance SL=6.41 USD | Taille=1.55 lots
+2026-10-06 16:34:57 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 1.55 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:34:57 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 1.55 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:34:57 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:34:59 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=999.93 USD | Risque max=10.00 USD | Distance SL=6.22 USD | Taille=1.6 lots
+2026-10-06 16:34:59 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 1.6 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:34:59 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 1.6 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:35:00 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:35:02 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=999.93 USD | Risque max=10.00 USD | Distance SL=6.17 USD | Taille=1.62 lots
+2026-10-06 16:35:02 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 1.62 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:35:02 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 1.62 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:35:02 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:35:04 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=999.93 USD | Risque max=10.00 USD | Distance SL=6.17 USD | Taille=1.62 lots
+2026-10-06 16:35:04 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 1.62 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:35:04 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 1.62 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:35:04 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:35:07 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=999.93 USD | Risque max=10.00 USD | Distance SL=6.13 USD | Taille=1.63 lots
+2026-10-06 16:35:07 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 1.63 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:35:07 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 1.63 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:35:07 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:35:09 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=999.93 USD | Risque max=10.00 USD | Distance SL=6.47 USD | Taille=1.54 lots
+2026-10-06 16:35:09 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 1.54 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:35:09 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 1.54 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:35:09 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:35:12 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=999.93 USD | Risque max=10.00 USD | Distance SL=6.47 USD | Taille=1.54 lots
+2026-10-06 16:35:12 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 1.54 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:35:12 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 1.54 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:35:12 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:35:14 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=999.93 USD | Risque max=10.00 USD | Distance SL=6.55 USD | Taille=1.52 lots
+2026-10-06 16:35:14 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 1.52 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:35:14 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 1.52 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:35:14 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:35:17 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=999.93 USD | Risque max=10.00 USD | Distance SL=6.41 USD | Taille=1.55 lots
+2026-10-06 16:35:17 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 1.55 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:35:17 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 1.55 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:35:17 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:35:19 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=999.93 USD | Risque max=10.00 USD | Distance SL=6.48 USD | Taille=1.54 lots
+2026-10-06 16:35:19 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 1.54 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:35:19 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 1.54 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:35:19 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:35:20 [INFO    ] (bot_service.py:64) - Connexion à l'API Capital.com (Mode Démo)...
+2026-10-06 16:35:20 [INFO    ] (auth.py:72) - Connexion en cours à Capital.com (demo)...
+2026-10-06 16:35:21 [INFO    ] (auth.py:94) - Authentification réussie. Compte ID: 330847176266952990
+2026-10-06 16:35:21 [INFO    ] (risk_manager.py:100) - Nouvelle journée de trading (2026-10-06). Équité de référence initialisée à: 999.93 USD
+2026-10-06 16:35:21 [INFO    ] (bot_service.py:64) - Connecté avec succès. Solde: 999.93 USD
+2026-10-06 16:35:22 [INFO    ] (bot_service.py:64) - Signal ignoré : Spread trop élevé (0.750 > max 0.600)
+2026-10-06 16:35:24 [INFO    ] (bot_service.py:64) - Signal ignoré : Spread trop élevé (0.750 > max 0.600)
+2026-10-06 16:35:26 [INFO    ] (bot_service.py:64) - Signal ignoré : Spread trop élevé (0.750 > max 0.600)
+2026-10-06 16:35:29 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=999.93 USD | Risque max=10.00 USD | Distance SL=6.57 USD | Taille=1.52 lots
+2026-10-06 16:35:29 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 1.52 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:35:29 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 1.52 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:35:29 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:35:31 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=999.93 USD | Risque max=10.00 USD | Distance SL=6.52 USD | Taille=1.53 lots
+2026-10-06 16:35:31 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 1.53 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:35:31 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 1.53 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:35:31 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:35:34 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=999.93 USD | Risque max=10.00 USD | Distance SL=5.95 USD | Taille=1.68 lots
+2026-10-06 16:35:34 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 1.68 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:35:34 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 1.68 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:35:34 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:35:36 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=999.93 USD | Risque max=10.00 USD | Distance SL=5.84 USD | Taille=1.71 lots
+2026-10-06 16:35:36 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 1.71 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:35:36 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 1.71 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:35:36 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:35:39 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=999.93 USD | Risque max=10.00 USD | Distance SL=5.94 USD | Taille=1.68 lots
+2026-10-06 16:35:39 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 1.68 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:35:39 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 1.68 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:35:39 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:35:41 [INFO    ] (bot_service.py:64) - Signal ignoré : Spread trop élevé (0.750 > max 0.600)
+2026-10-06 16:35:44 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=999.93 USD | Risque max=10.00 USD | Distance SL=5.08 USD | Taille=1.96 lots
+2026-10-06 16:35:44 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 1.96 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:35:44 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 1.96 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:35:44 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:35:46 [INFO    ] (bot_service.py:64) - Signal ignoré : Spread trop élevé (0.750 > max 0.600)
+2026-10-06 16:35:49 [INFO    ] (bot_service.py:64) - Signal ignoré : Spread trop élevé (0.750 > max 0.600)
+2026-10-06 16:35:49 [INFO    ] (bot_service.py:64) - Connexion à l'API Capital.com (Mode Démo)...
+2026-10-06 16:35:49 [INFO    ] (auth.py:72) - Connexion en cours à Capital.com (demo)...
+2026-10-06 16:35:50 [INFO    ] (auth.py:94) - Authentification réussie. Compte ID: 330847176266952990
+2026-10-06 16:35:50 [INFO    ] (risk_manager.py:100) - Nouvelle journée de trading (2026-10-06). Équité de référence initialisée à: 999.93 USD
+2026-10-06 16:35:50 [INFO    ] (bot_service.py:64) - Connecté avec succès. Solde: 999.93 USD
+2026-10-06 16:35:50 [ERROR   ] (bot_service.py:62) - Ordre manuel refusé par le risque : Spread trop élevé (0.750 > max 0.600)
+2026-10-06 16:35:50 [INFO    ] (bot_service.py:64) - 0 position(s) fermée(s) en clôture d'urgence.
+2026-10-06 16:35:51 [INFO    ] (bot_service.py:64) - Signal ignoré : Spread trop élevé (0.750 > max 0.600)
+2026-10-06 16:35:53 [INFO    ] (bot_service.py:64) - Signal ignoré : Spread trop élevé (0.750 > max 0.600)
+2026-10-06 16:35:56 [INFO    ] (bot_service.py:64) - Signal ignoré : Spread trop élevé (0.750 > max 0.600)
+2026-10-06 16:35:58 [INFO    ] (bot_service.py:64) - Signal ignoré : Spread trop élevé (0.750 > max 0.600)
+2026-10-06 16:36:01 [INFO    ] (bot_service.py:64) - Signal ignoré : Spread trop élevé (0.750 > max 0.600)
+2026-10-06 16:36:03 [INFO    ] (bot_service.py:64) - Signal ignoré : Spread trop élevé (0.750 > max 0.600)
+2026-10-06 16:36:06 [INFO    ] (bot_service.py:64) - Signal ignoré : Spread trop élevé (0.750 > max 0.600)
+2026-10-06 16:36:08 [INFO    ] (bot_service.py:64) - Signal ignoré : Spread trop élevé (0.750 > max 0.600)
+2026-10-06 16:36:10 [INFO    ] (bot_service.py:64) - Signal ignoré : Spread trop élevé (0.750 > max 0.600)
+2026-10-06 16:36:13 [INFO    ] (bot_service.py:64) - Signal ignoré : Spread trop élevé (0.750 > max 0.600)
+2026-10-06 16:36:15 [INFO    ] (bot_service.py:64) - Signal ignoré : Spread trop élevé (0.750 > max 0.600)
+2026-10-06 16:36:18 [INFO    ] (bot_service.py:64) - Signal ignoré : Spread trop élevé (0.750 > max 0.600)
+2026-10-06 16:36:18 [INFO    ] (bot_service.py:64) - Connexion à l'API Capital.com (Mode Démo)...
+2026-10-06 16:36:18 [INFO    ] (auth.py:72) - Connexion en cours à Capital.com (demo)...
+2026-10-06 16:36:18 [INFO    ] (auth.py:94) - Authentification réussie. Compte ID: 330847176266952990
+2026-10-06 16:36:18 [INFO    ] (risk_manager.py:100) - Nouvelle journée de trading (2026-10-06). Équité de référence initialisée à: 999.93 USD
+2026-10-06 16:36:18 [INFO    ] (bot_service.py:64) - Connecté avec succès. Solde: 999.93 USD
+2026-10-06 16:36:19 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=999.93 USD | Risque max=10.00 USD | Distance SL=14.53 USD | Taille=0.68 lots
+2026-10-06 16:36:19 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : BUY 0.68 lots sur GOLD | SL: 4137.3 | TP: 4173.62 | Motif: Ordre Manuel 1-Click (BUY) avec Stop ATR (3.00$)
+2026-10-06 16:36:19 [INFO    ] (execution.py:145) - Ordre transmis avec succès. DealReference: o_1c692761-218f-4d40-8ef8-2432943f7865
+2026-10-06 16:36:20 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=999.71 USD | Risque max=10.00 USD | Distance SL=5.52 USD | Taille=1.81 lots
+2026-10-06 16:36:20 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 1.81 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:36:20 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 1.81 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:36:20 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:36:23 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=999.65 USD | Risque max=10.00 USD | Distance SL=5.65 USD | Taille=1.76 lots
+2026-10-06 16:36:23 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 1.76 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:36:23 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 1.76 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:36:23 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:36:24 [WARNING ] (execution.py:194) - Délai de confirmation dépassé pour dealReference: o_1c692761-218f-4d40-8ef8-2432943f7865
+2026-10-06 16:36:24 [INFO    ] (bot_service.py:64) - Ordre BUY exécuté (0.68 lots) | SL=4137.3$ | TP=4173.62$
+2026-10-06 16:36:24 [INFO    ] (bot_service.py:64) - 0 position(s) fermée(s) en clôture d'urgence.
+2026-10-06 16:36:25 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=999.57 USD | Risque max=10.00 USD | Distance SL=5.60 USD | Taille=1.78 lots
+2026-10-06 16:36:25 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 1.78 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:36:25 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 1.78 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:36:25 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:36:28 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=999.61 USD | Risque max=10.00 USD | Distance SL=5.55 USD | Taille=1.8 lots
+2026-10-06 16:36:28 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 1.8 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:36:28 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 1.8 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:36:28 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:36:30 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=999.63 USD | Risque max=10.00 USD | Distance SL=5.96 USD | Taille=1.67 lots
+2026-10-06 16:36:30 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 1.67 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:36:30 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 1.67 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:36:30 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:36:32 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=999.23 USD | Risque max=9.99 USD | Distance SL=6.18 USD | Taille=1.61 lots
+2026-10-06 16:36:32 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 1.61 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:36:32 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 1.61 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:36:33 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:36:35 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=999.07 USD | Risque max=9.99 USD | Distance SL=6.42 USD | Taille=1.55 lots
+2026-10-06 16:36:35 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 1.55 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:36:35 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 1.55 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:36:35 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:36:37 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=999.22 USD | Risque max=9.99 USD | Distance SL=6.28 USD | Taille=1.59 lots
+2026-10-06 16:36:37 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 1.59 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:36:37 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 1.59 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:36:37 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:36:40 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=999.34 USD | Risque max=9.99 USD | Distance SL=5.93 USD | Taille=1.68 lots
+2026-10-06 16:36:40 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 1.68 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:36:40 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 1.68 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:36:40 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:36:42 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=999.41 USD | Risque max=9.99 USD | Distance SL=6.21 USD | Taille=1.6 lots
+2026-10-06 16:36:42 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 1.6 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:36:42 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 1.6 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:36:42 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:36:45 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=998.79 USD | Risque max=9.99 USD | Distance SL=6.84 USD | Taille=1.46 lots
+2026-10-06 16:36:45 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 1.46 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:36:45 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 1.46 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:36:45 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:36:47 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=998.97 USD | Risque max=9.99 USD | Distance SL=6.45 USD | Taille=1.54 lots
+2026-10-06 16:36:47 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 1.54 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:36:47 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 1.54 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:36:47 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:36:50 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=999.27 USD | Risque max=9.99 USD | Distance SL=6.08 USD | Taille=1.64 lots
+2026-10-06 16:36:50 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 1.64 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:36:50 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 1.64 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:36:50 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:36:52 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=999.30 USD | Risque max=9.99 USD | Distance SL=6.03 USD | Taille=1.65 lots
+2026-10-06 16:36:52 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 1.65 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:36:52 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 1.65 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:36:52 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:36:55 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=999.30 USD | Risque max=9.99 USD | Distance SL=5.66 USD | Taille=1.76 lots
+2026-10-06 16:36:55 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 1.76 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:36:55 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 1.76 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:36:55 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:36:57 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=999.30 USD | Risque max=9.99 USD | Distance SL=5.84 USD | Taille=1.71 lots
+2026-10-06 16:36:57 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 1.71 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:36:57 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 1.71 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:36:57 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:37:00 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=999.30 USD | Risque max=9.99 USD | Distance SL=5.73 USD | Taille=1.74 lots
+2026-10-06 16:37:00 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 1.74 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:37:00 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 1.74 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:37:00 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:37:02 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=999.30 USD | Risque max=9.99 USD | Distance SL=5.20 USD | Taille=1.92 lots
+2026-10-06 16:37:02 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 1.92 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:37:02 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 1.92 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:37:02 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:37:04 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=999.30 USD | Risque max=9.99 USD | Distance SL=5.09 USD | Taille=1.96 lots
+2026-10-06 16:37:04 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 1.96 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:37:04 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 1.96 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:37:04 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:37:06 [INFO    ] (bot_service.py:64) - Connexion à l'API Capital.com (Mode Démo)...
+2026-10-06 16:37:06 [INFO    ] (auth.py:72) - Connexion en cours à Capital.com (demo)...
+2026-10-06 16:37:06 [INFO    ] (auth.py:94) - Authentification réussie. Compte ID: 330847176266952990
+2026-10-06 16:37:06 [INFO    ] (risk_manager.py:100) - Nouvelle journée de trading (2026-10-06). Équité de référence initialisée à: 999.30 USD
+2026-10-06 16:37:06 [INFO    ] (bot_service.py:64) - Connecté avec succès. Solde: 999.30 USD
+2026-10-06 16:37:06 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=999.30 USD | Risque max=9.99 USD | Distance SL=14.53 USD | Taille=0.68 lots
+2026-10-06 16:37:06 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : BUY 0.68 lots sur GOLD | SL: 4137.49 | TP: 4173.82 | Motif: Ordre Manuel 1-Click (BUY) avec Stop ATR (3.00$)
+2026-10-06 16:37:06 [INFO    ] (execution.py:145) - Ordre transmis avec succès. DealReference: o_9b0b8df6-da95-4ba8-b3cf-7150bce413c7
+2026-10-06 16:37:07 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=999.09 USD | Risque max=9.99 USD | Distance SL=5.15 USD | Taille=1.93 lots
+2026-10-06 16:37:07 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 1.93 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:37:07 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 1.93 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:37:07 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:37:07 [INFO    ] (execution.py:187) - Position CONFIRMÉE par Capital.com (DealId: 00000000-6843-3beb-0497-67c10055311e, Niveau: 4152.05)
+2026-10-06 16:37:07 [INFO    ] (bot_service.py:64) - Ordre BUY exécuté (0.68 lots) | SL=4137.49$ | TP=4173.82$
+2026-10-06 16:37:07 [INFO    ] (bot_service.py:64) - 0 position(s) fermée(s) en clôture d'urgence.
+2026-10-06 16:37:09 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=999.09 USD | Risque max=9.99 USD | Distance SL=5.10 USD | Taille=1.95 lots
+2026-10-06 16:37:09 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 1.95 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:37:09 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 1.95 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:37:09 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:37:12 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=998.78 USD | Risque max=9.99 USD | Distance SL=5.50 USD | Taille=1.81 lots
+2026-10-06 16:37:12 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 1.81 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:37:12 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 1.81 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:37:12 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:37:14 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=998.84 USD | Risque max=9.99 USD | Distance SL=5.48 USD | Taille=1.82 lots
+2026-10-06 16:37:14 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 1.82 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:37:14 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 1.82 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:37:14 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:37:17 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=998.82 USD | Risque max=9.99 USD | Distance SL=5.39 USD | Taille=1.85 lots
+2026-10-06 16:37:17 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 1.85 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:37:17 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 1.85 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:37:17 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:37:19 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=998.86 USD | Risque max=9.99 USD | Distance SL=5.45 USD | Taille=1.83 lots
+2026-10-06 16:37:19 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 1.83 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:37:19 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 1.83 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:37:19 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:37:22 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=999.05 USD | Risque max=9.99 USD | Distance SL=5.01 USD | Taille=1.99 lots
+2026-10-06 16:37:22 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 1.99 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:37:22 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 1.99 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:37:22 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:37:24 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=999.03 USD | Risque max=9.99 USD | Distance SL=5.13 USD | Taille=1.94 lots
+2026-10-06 16:37:24 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 1.94 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:37:24 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 1.94 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:37:24 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:37:27 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=999.10 USD | Risque max=9.99 USD | Distance SL=5.04 USD | Taille=1.98 lots
+2026-10-06 16:37:27 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 1.98 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:37:27 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 1.98 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:37:27 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:37:29 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=999.27 USD | Risque max=9.99 USD | Distance SL=4.86 USD | Taille=2.05 lots
+2026-10-06 16:37:29 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 2.05 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:37:29 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 2.05 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:37:29 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:37:32 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=999.25 USD | Risque max=9.99 USD | Distance SL=4.89 USD | Taille=2.04 lots
+2026-10-06 16:37:32 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 2.04 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:37:32 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 2.04 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:37:32 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:37:34 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=999.35 USD | Risque max=9.99 USD | Distance SL=4.74 USD | Taille=2.1 lots
+2026-10-06 16:37:34 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 2.1 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:37:34 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 2.1 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:37:34 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:37:36 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=999.29 USD | Risque max=9.99 USD | Distance SL=4.82 USD | Taille=2.07 lots
+2026-10-06 16:37:36 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 2.07 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:37:36 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 2.07 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:37:37 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:37:39 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=999.18 USD | Risque max=9.99 USD | Distance SL=4.97 USD | Taille=2.01 lots
+2026-10-06 16:37:39 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 2.01 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:37:39 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 2.01 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:37:39 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:37:41 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=999.15 USD | Risque max=9.99 USD | Distance SL=5.03 USD | Taille=1.98 lots
+2026-10-06 16:37:41 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 1.98 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:37:41 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 1.98 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:37:41 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:37:44 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=999.00 USD | Risque max=9.99 USD | Distance SL=5.08 USD | Taille=1.96 lots
+2026-10-06 16:37:44 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 1.96 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:37:44 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 1.96 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:37:44 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:37:46 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=998.99 USD | Risque max=9.99 USD | Distance SL=5.26 USD | Taille=1.89 lots
+2026-10-06 16:37:46 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 1.89 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:37:46 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 1.89 lots sur GOLD | SL: 4156.86 | TP: 4124.55 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:37:46 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.vallidation.guaranteed-stop-loss.required"}
+2026-10-06 16:37:48 [INFO    ] (auth.py:211) - Session Capital.com clôturée proprement.
+2026-10-06 16:37:48 [INFO    ] (bot_service.py:64) - Surveillance autonome arrêtée.
+2026-10-06 16:37:55 [INFO    ] (bot_service.py:64) - Connexion à l'API Capital.com (Mode Démo)...
+2026-10-06 16:37:55 [INFO    ] (auth.py:72) - Connexion en cours à Capital.com (demo)...
+2026-10-06 16:37:56 [INFO    ] (auth.py:94) - Authentification réussie. Compte ID: 330847176266952990
+2026-10-06 16:37:56 [INFO    ] (risk_manager.py:100) - Nouvelle journée de trading (2026-10-06). Équité de référence initialisée à: 998.69 USD
+2026-10-06 16:37:56 [INFO    ] (bot_service.py:64) - Connecté avec succès. Solde: 998.69 USD
+2026-10-06 16:37:56 [INFO    ] (bot_service.py:64) - Surveillance autonome démarrée.
+2026-10-06 16:37:56 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=998.54 USD | Risque max=9.99 USD | Distance SL=9.52 USD | Taille=1.04 lots
+2026-10-06 16:37:56 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 1.04 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:37:56 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 1.04 lots sur GOLD | SL: 4160.6 | TP: 4124.32 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:37:56 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.invalid.stoploss.minvalue: 4161.68"}
+2026-10-06 16:37:59 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=998.39 USD | Risque max=9.98 USD | Distance SL=9.89 USD | Taille=1.0 lots
+2026-10-06 16:37:59 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 1.0 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:37:59 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 1.0 lots sur GOLD | SL: 4160.6 | TP: 4124.32 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:37:59 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.invalid.stoploss.minvalue: 4161.52"}
+2026-10-06 16:38:01 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=998.27 USD | Risque max=9.98 USD | Distance SL=10.03 USD | Taille=0.99 lots
+2026-10-06 16:38:01 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 0.99 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:38:01 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 0.99 lots sur GOLD | SL: 4160.6 | TP: 4124.32 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:38:01 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.invalid.stoploss.minvalue: 4161.56"}
+2026-10-06 16:38:03 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=998.42 USD | Risque max=9.98 USD | Distance SL=9.97 USD | Taille=1.0 lots
+2026-10-06 16:38:03 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 1.0 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:38:03 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 1.0 lots sur GOLD | SL: 4160.6 | TP: 4124.32 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:38:04 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.invalid.stoploss.minvalue: 4161.44"}
+2026-10-06 16:38:06 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=998.19 USD | Risque max=9.98 USD | Distance SL=10.40 USD | Taille=0.95 lots
+2026-10-06 16:38:06 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 0.95 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:38:06 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 0.95 lots sur GOLD | SL: 4160.6 | TP: 4124.32 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:38:06 [ERROR   ] (execution.py:151) - Échec de création de position (HTTP 400): {"errorCode":"error.invalid.stoploss.minvalue: 4160.66"}
+2026-10-06 16:38:09 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=997.70 USD | Risque max=9.98 USD | Distance SL=10.99 USD | Taille=0.9 lots
+2026-10-06 16:38:09 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : SELL 0.9 lots (Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$)
+2026-10-06 16:38:09 [INFO    ] (execution.py:129) - Envoi de l'ordre au marché : SELL 0.9 lots sur GOLD | SL: 4160.6 | TP: 4124.32 | Motif: Opportunité VENTE Active : Flux baissier, RSI 40.3 en baisse, ATR 7.18$
+2026-10-06 16:38:09 [INFO    ] (execution.py:145) - Ordre transmis avec succès. DealReference: o_6f6e915d-4ae1-4fd2-890e-abf09a0a4bae
+2026-10-06 16:38:10 [INFO    ] (execution.py:187) - Position CONFIRMÉE par Capital.com (DealId: 00000000-6843-3e5b-0497-67c10055311e, Niveau: 4149.61)
+2026-10-06 16:43:35 [INFO    ] (bot_service.py:64) - Connexion à l'API Capital.com (Mode Démo)...
+2026-10-06 16:43:35 [INFO    ] (auth.py:72) - Connexion en cours à Capital.com (demo)...
+2026-10-06 16:43:36 [INFO    ] (auth.py:94) - Authentification réussie. Compte ID: 330847176266952990
+2026-10-06 16:43:36 [INFO    ] (risk_manager.py:100) - Nouvelle journée de trading (2026-10-06). Équité de référence initialisée à: 997.12 USD
+2026-10-06 16:43:36 [INFO    ] (bot_service.py:64) - Connecté avec succès. Solde: 997.12 USD
+2026-10-06 16:45:11 [INFO    ] (bot_service.py:64) - Connexion à l'API Capital.com (Mode Démo)...
+2026-10-06 16:45:11 [INFO    ] (auth.py:72) - Connexion en cours à Capital.com (demo)...
+2026-10-06 16:45:11 [INFO    ] (auth.py:94) - Authentification réussie. Compte ID: 330847176266952990
+2026-10-06 16:45:11 [INFO    ] (risk_manager.py:100) - Nouvelle journée de trading (2026-10-06). Équité de référence initialisée à: 996.97 USD
+2026-10-06 16:45:11 [INFO    ] (bot_service.py:64) - Connecté avec succès. Solde: 996.97 USD
+2026-10-06 16:45:18 [INFO    ] (bot_service.py:64) - Connexion à l'API Capital.com (Mode Démo)...
+2026-10-06 16:45:18 [INFO    ] (auth.py:72) - Connexion en cours à Capital.com (demo)...
+2026-10-06 16:45:18 [INFO    ] (auth.py:94) - Authentification réussie. Compte ID: 330847176266952990
+2026-10-06 16:45:18 [INFO    ] (risk_manager.py:100) - Nouvelle journée de trading (2026-10-06). Équité de référence initialisée à: 996.92 USD
+2026-10-06 16:45:18 [INFO    ] (bot_service.py:64) - Connecté avec succès. Solde: 996.92 USD
+2026-10-06 16:45:18 [INFO    ] (bot_service.py:64) - Surveillance autonome démarrée.
+2026-10-06 16:45:19 [INFO    ] (bot_service.py:64) - Signal inverse (BUY) -> Clôture position 00000000-6843-3e5b-0497-67c10055311e
+2026-10-06 16:45:19 [INFO    ] (execution.py:211) - Clôture de la position 00000000-6843-3e5b-0497-67c10055311e...
+2026-10-06 16:45:19 [INFO    ] (execution.py:219) - Position 00000000-6843-3e5b-0497-67c10055311e fermée avec succès (Ref: p_00000000-6843-3e5b-0497-67c10055311e)
+2026-10-06 16:45:21 [INFO    ] (risk_manager.py:273) - Validation Risque OK : Équité=996.95 USD | Risque max=9.97 USD | Distance SL=14.44 USD | Taille=0.69 lots
+2026-10-06 16:45:21 [INFO    ] (bot_service.py:64) - >> AUTO TRADE : BUY 0.69 lots (Opportunité ACHAT Actif : Flux haussier, RSI 46.9 en poussée, ATR 7.34$)
+2026-10-06 16:45:21 [INFO    ] (execution.py:130) - Envoi de l'ordre au marché : BUY 0.69 lots sur GOLD | SL: 4138.32 | TP: 4174.86 | Motif: Opportunité ACHAT Actif : Flux haussier, RSI 46.9 en poussée, ATR 7.34$
+2026-10-06 16:45:21 [INFO    ] (execution.py:146) - Ordre transmis avec succès. DealReference: o_0b2f4ac9-bdca-4d79-95e3-c25b0ba595ce
+2026-10-06 16:45:22 [INFO    ] (execution.py:188) - Position CONFIRMÉE par Capital.com (DealId: 00000000-6843-540a-0497-67c10055311e, Niveau: 4152.75)
+2026-10-06 16:53:57 [INFO    ] (strategy.py:58) - Mode de stratégie changé en : conservative
+2026-10-06 16:53:57 [INFO    ] (bot_service.py:64) - Mode de stratégie ajusté : CONSERVATIVE
+2026-10-06 16:53:57 [INFO    ] (bot_service.py:64) - Timeframe d'analyse changée : MINUTE_5
+2026-10-06 16:53:57 [INFO    ] (bot_service.py:64) - Trading autonome : EN PAUSE
+2026-10-06 16:54:21 [INFO    ] (strategy.py:58) - Mode de stratégie changé en : conservative
+2026-10-06 16:54:21 [INFO    ] (bot_service.py:64) - Mode de stratégie ajusté : CONSERVATIVE
+2026-10-06 16:54:21 [INFO    ] (bot_service.py:64) - Timeframe d'analyse changée : MINUTE_5
+2026-10-06 16:54:21 [INFO    ] (bot_service.py:64) - Trading autonome : EN PAUSE
+2026-10-06 16:56:02 [INFO    ] (bot_service.py:64) - Connexion à l'API Capital.com (Mode Démo)...
+2026-10-06 16:56:02 [INFO    ] (auth.py:74) - Connexion en cours à Capital.com (demo)...
+2026-10-06 16:56:02 [INFO    ] (auth.py:97) - Authentification réussie. Compte ID: 330847176266952990
+2026-10-06 16:56:02 [INFO    ] (risk_manager.py:100) - Nouvelle journée de trading (2026-10-06). Équité de référence initialisée à: 998.48 USD
+2026-10-06 16:56:02 [INFO    ] (bot_service.py:64) - Connecté avec succès. Solde: 998.48 USD
+2026-10-06 16:56:02 [INFO    ] (bot_service.py:64) - Surveillance autonome démarrée.
+2026-10-06 17:08:54 [INFO    ] (strategy.py:64) - Mode de stratégie changé en : conservative
+2026-10-06 17:08:54 [INFO    ] (bot_service.py:68) - Mode de stratégie ajusté : CONSERVATIVE
+2026-10-06 17:08:54 [INFO    ] (bot_service.py:68) - Timeframe d'analyse changée : MINUTE_5
+2026-10-06 17:08:54 [INFO    ] (bot_service.py:68) - Trading autonome : EN PAUSE
+2026-10-06 17:09:27 [INFO    ] (strategy.py:64) - Mode de stratégie changé en : conservative
+2026-10-06 17:09:27 [INFO    ] (bot_service.py:68) - Mode de stratégie ajusté : CONSERVATIVE
+2026-10-06 17:09:27 [INFO    ] (bot_service.py:68) - Timeframe d'analyse changée : MINUTE_5
+2026-10-06 17:09:27 [INFO    ] (bot_service.py:68) - Trading autonome : EN PAUSE
+2026-10-06 17:09:38 [INFO    ] (bot_service.py:68) - Connexion à l'API Capital.com (Mode Démo)...
+2026-10-06 17:09:38 [INFO    ] (auth.py:74) - Connexion en cours à Capital.com (demo)...
+2026-10-06 17:09:38 [INFO    ] (auth.py:97) - Authentification réussie. Compte ID: 330847176266952990
+2026-10-06 17:09:38 [INFO    ] (risk_manager.py:100) - Nouvelle journée de trading (2026-10-06). Équité de référence initialisée à: 1001.77 USD
+2026-10-06 17:09:38 [INFO    ] (bot_service.py:68) - Connecté avec succès. Solde: 1001.77 USD
+2026-10-06 17:09:38 [INFO    ] (bot_service.py:68) - Surveillance autonome démarrée.
+2026-10-06 17:10:41 [INFO    ] (bot_service.py:68) - Connexion à l'API Capital.com (Mode Démo)...
+2026-10-06 17:10:41 [INFO    ] (auth.py:74) - Connexion en cours à Capital.com (demo)...
+2026-10-06 17:10:42 [INFO    ] (auth.py:97) - Authentification réussie. Compte ID: 330847176266952990
+2026-10-06 17:10:42 [INFO    ] (risk_manager.py:100) - Nouvelle journée de trading (2026-10-06). Équité de référence initialisée à: 1002.41 USD
+2026-10-06 17:10:42 [INFO    ] (bot_service.py:68) - Connecté avec succès. Solde: 1002.41 USD
+2026-10-06 17:10:42 [INFO    ] (bot_service.py:68) - Surveillance autonome démarrée.
+2026-10-06 17:12:50 [INFO    ] (bot_service.py:68) - Connexion à l'API Capital.com (Mode Démo)...
+2026-10-06 17:12:50 [INFO    ] (auth.py:74) - Connexion en cours à Capital.com (demo)...
+2026-10-06 17:12:50 [INFO    ] (auth.py:97) - Authentification réussie. Compte ID: 330847176266952990
+2026-10-06 17:12:50 [INFO    ] (risk_manager.py:100) - Nouvelle journée de trading (2026-10-06). Équité de référence initialisée à: 1003.49 USD
+2026-10-06 17:12:50 [INFO    ] (bot_service.py:68) - Connecté avec succès. Solde: 1003.49 USD
+2026-10-06 17:12:50 [INFO    ] (bot_service.py:68) - Surveillance autonome démarrée.
+2026-10-06 17:13:20 [INFO    ] (strategy.py:64) - Mode de stratégie changé en : conservative
+2026-10-06 17:13:20 [INFO    ] (bot_service.py:68) - Mode de stratégie ajusté : CONSERVATIVE
+2026-10-06 17:13:20 [INFO    ] (bot_service.py:68) - Timeframe d'analyse changée : MINUTE_5
+2026-10-06 17:13:20 [INFO    ] (bot_service.py:68) - Trading autonome : EN PAUSE
+2026-10-06 17:18:22 [INFO    ] (bot_service.py:68) - Connexion à l'API Capital.com (Mode Démo)...
+2026-10-06 17:18:22 [INFO    ] (auth.py:74) - Connexion en cours à Capital.com (demo)...
+2026-10-06 17:18:23 [INFO    ] (auth.py:97) - Authentification réussie. Compte ID: 330847176266952990
+2026-10-06 17:18:23 [INFO    ] (risk_manager.py:100) - Nouvelle journée de trading (2026-10-06). Équité de référence initialisée à: 1003.96 USD
+2026-10-06 17:18:23 [INFO    ] (bot_service.py:68) - Connecté avec succès. Solde: 1003.96 USD
+2026-10-06 17:18:23 [INFO    ] (bot_service.py:68) - Surveillance autonome démarrée.
+2026-10-06 17:27:51 [INFO    ] (strategy.py:64) - Mode de stratégie changé en : conservative
+2026-10-06 17:27:51 [INFO    ] (bot_service.py:68) - Mode de stratégie ajusté : CONSERVATIVE
+2026-10-06 17:27:51 [INFO    ] (bot_service.py:68) - Timeframe d'analyse changée : MINUTE_5
+2026-10-06 17:27:51 [INFO    ] (bot_service.py:68) - Trading autonome : EN PAUSE
+2026-10-06 17:28:30 [INFO    ] (strategy.py:64) - Mode de stratégie changé en : conservative
+2026-10-06 17:28:30 [INFO    ] (bot_service.py:68) - Mode de stratégie ajusté : CONSERVATIVE
+2026-10-06 17:28:30 [INFO    ] (bot_service.py:68) - Timeframe d'analyse changée : MINUTE_5
+2026-10-06 17:28:30 [INFO    ] (bot_service.py:68) - Trading autonome : EN PAUSE
+2026-10-06 18:06:23 [INFO    ] (strategy.py:64) - Mode de stratégie changé en : conservative
+2026-10-06 18:06:23 [INFO    ] (bot_service.py:68) - Mode de stratégie ajusté : CONSERVATIVE
+2026-10-06 18:06:23 [INFO    ] (risk_manager.py:68) - Effet de levier configuré à : 10:1
+2026-10-06 18:06:23 [INFO    ] (risk_manager.py:82) - Risque en capital configuré à : 2.50%
+2026-10-06 18:06:23 [INFO    ] (bot_service.py:68) - Paramètres de Risque : Levier 10:1 | Risque Capital 2.5%
+2026-10-06 18:06:23 [INFO    ] (bot_service.py:68) - Timeframe d'analyse changée : MINUTE_5
+2026-10-06 18:06:23 [INFO    ] (bot_service.py:68) - Trading autonome : EN PAUSE
+2026-10-06 18:07:28 [INFO    ] (bot_service.py:68) - Connexion à l'API Capital.com (Mode Démo)...
+2026-10-06 18:07:28 [INFO    ] (auth.py:74) - Connexion en cours à Capital.com (demo)...
+2026-10-06 18:07:29 [INFO    ] (auth.py:97) - Authentification réussie. Compte ID: 330847176266952990
+2026-10-06 18:07:29 [INFO    ] (risk_manager.py:133) - Nouvelle journée de trading (2026-10-06). Équité de référence initialisée à: 1005.03 USD
+2026-10-06 18:07:29 [INFO    ] (bot_service.py:68) - Connecté avec succès. Solde: 1005.03 USD
+2026-10-06 18:07:29 [INFO    ] (bot_service.py:68) - Surveillance autonome démarrée.
+2026-10-06 18:07:44 [INFO    ] (risk_manager.py:68) - Effet de levier configuré à : 10:1
+2026-10-06 18:07:44 [INFO    ] (risk_manager.py:82) - Risque en capital configuré à : 2.00%
+2026-10-06 18:07:44 [INFO    ] (bot_service.py:68) - Paramètres de Risque : Levier 10:1 | Risque Capital 2.0%
+2026-10-06 18:07:49 [INFO    ] (risk_manager.py:68) - Effet de levier configuré à : 20:1
+2026-10-06 18:07:49 [INFO    ] (risk_manager.py:82) - Risque en capital configuré à : 1.00%
+2026-10-06 18:07:49 [INFO    ] (bot_service.py:68) - Paramètres de Risque : Levier 20:1 | Risque Capital 1.0%
+2026-10-06 18:08:07 [INFO    ] (strategy.py:64) - Mode de stratégie changé en : conservative
+2026-10-06 18:08:07 [INFO    ] (bot_service.py:68) - Mode de stratégie ajusté : CONSERVATIVE
+2026-10-06 18:08:07 [INFO    ] (risk_manager.py:68) - Effet de levier configuré à : 10:1
+2026-10-06 18:08:07 [INFO    ] (risk_manager.py:82) - Risque en capital configuré à : 2.50%
+2026-10-06 18:08:07 [INFO    ] (bot_service.py:68) - Paramètres de Risque : Levier 10:1 | Risque Capital 2.5%
+2026-10-06 18:08:07 [INFO    ] (bot_service.py:68) - Timeframe d'analyse changée : MINUTE_5
+2026-10-06 18:08:07 [INFO    ] (bot_service.py:68) - Trading autonome : EN PAUSE

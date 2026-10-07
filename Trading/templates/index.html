@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRADING — XAU/USD Terminal & Intelligence Multi-Factorielle</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+    <!-- ============================================================ -->
+    <!-- STEAM DECK INSPIRED BOOT SEQUENCE OVERLAY                   -->
+    <!-- ============================================================ -->
+    <div id="bootScreen" class="boot-screen">
+        <div class="boot-stage">
+            <!-- Animated Central Portal / Aperture -->
+            <div class="deck-portal">
+                <div class="deck-ring deck-ring-outer"></div>
+                <div class="deck-ring deck-ring-mid"></div>
+                <div class="deck-ring deck-ring-inner"></div>
+                <div class="deck-core">
+                    <svg viewBox="0 0 100 100" class="deck-core-svg">
+                        <polygon points="50,12 88,34 88,66 50,88 12,66 12,34" fill="none" stroke="currentColor" stroke-width="2.5"/>
+                        <circle cx="50" cy="50" r="16" fill="currentColor"/>
+                    </svg>
+                </div>
+            </div>
+
+            <!-- Big Iconic "TRADING" Typography -->
+            <div class="boot-title-wrap">
+                <h1 class="boot-title">TRADING</h1>
+                <div class="boot-subtitle-row">
+                    <span class="boot-line"></span>
+                    <span class="boot-subtitle">CAPITAL.COM AUTONOMOUS SYSTEM</span>
+                    <span class="boot-line"></span>
+                </div>
+            </div>
+
+            <!-- Loading hairline tracker -->
+            <div class="boot-progress-bar">
+                <div class="boot-progress-fill"></div>
+            </div>
+            
+            <p class="boot-meta font-mono">XAU/USD • DESK & MULTI-PILLAR INTELLIGENCE INITIALIZATION</p>
+        </div>
+    </div>
+
+    <!-- ============================================================ -->
+    <!-- LUXURY TRADING DESK MAIN INTERFACE                           -->
+    <!-- ============================================================ -->
+    <div class="app-wrapper" id="appWrapper">
+        
+        <!-- HEADER TOP NAVIGATION -->
+        <header class="luxury-header">
+            <div class="header-brand">
+                <div class="brand-monogram">
+                    <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8">
+                        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                    </svg>
+                </div>
+                <div class="brand-info">
+                    <div class="brand-title-line">
+                        <span class="brand-name">TRADING</span>
+                        <span class="brand-tag">DESK PRIVÉ</span>
+                    </div>
+                    <span class="brand-market font-mono">XAU / USD • OR COMPTANT (CFD)</span>
+                </div>
+            </div>
+
+            <!-- Live Status & Capital Metrics -->
+            <div class="header-stats">
+                <div class="stat-pill live-feed-pill" id="connPill">
+                    <span class="status-orb"></span>
+                    <span class="pill-text font-mono" id="connStatusText">FLUX DIRECT CONNECTÉ</span>
+                </div>
+
+                <div class="stat-pill stat-card">
+                    <span class="stat-caption">ÉQUITÉ DU COMPTE</span>
+                    <span class="stat-num font-mono text-gold" id="accountEquity">1 000.00 USD</span>
+                </div>
+
+                <div class="stat-pill stat-card">
+                    <span class="stat-caption">IDENTIFIANT COMPTE</span>
+                    <span class="stat-num font-mono" id="accountId">#330847176266952990</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- LUXURY DUAL-TAB NAVIGATION BAR -->
+        <nav class="luxury-nav-tabs">
+            <button class="nav-tab-btn active" data-tab="cockpit" id="tabCockpitBtn" type="button">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
+                    <line x1="8" y1="21" x2="16" y2="21"/>
+                    <line x1="12" y1="17" x2="12" y2="21"/>
+                </svg>
+                <span>COCKPIT DE TRADING</span>
+            </button>
+            <button class="nav-tab-btn" data-tab="intelligence" id="tabIntelBtn" type="button">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M12 2a8 8 0 0 0-8 8c0 3.3 2 6.1 5 7.4V20a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2v-2.6c3-1.3 5-4.1 5-7.4a8 8 0 0 0-8-8z"/>
+                    <path d="M10 14h4"/>
+                </svg>
+                <span>INTELLIGENCE & PRÉDICTIONS EN DIRECT</span>
+                <span class="tab-badge-live font-mono">5 PILIERS • LIVE</span>
+            </button>
+        </nav>
+
+        <!-- ============================================================ -->
+        <!-- TAB 1 : COCKPIT DE TRADING                                    -->
+        <!-- ============================================================ -->
+        <div class="tab-pane active" id="paneCockpit">
+            
+            <!-- MAIN TRADING COCKPIT -->
+            <div class="cockpit-layout">
+                
+                <!-- LEFT PANEL: EXECUTION DESK -->
+                <section class="desk-panel execution-panel">
+                    <div class="panel-header">
+                        <div class="panel-title-wrap">
+                            <h2 class="panel-title">ORDRES AU MARCHÉ</h2>
+                            <span class="panel-tag">EXÉCUTION 1-CLIC</span>
+                        </div>
+                        <span class="risk-badge font-mono">RISQUE 1% • SL/TP DYNAMIQUES</span>
+                    </div>
+
+                    <!-- 1-Click Executive Action Buttons -->
+                    <div class="trade-actions-grid">
+                        <button class="action-btn btn-buy" id="btnBuyManual" type="button">
+                            <div class="btn-top">
+                                <span class="btn-action-label">ACHETER</span>
+                                <span class="btn-side-badge">LONG</span>
+                            </div>
+                            <div class="btn-bottom">
+                                <span class="btn-price font-mono" id="buyPriceSub">4 154.80 $</span>
+                                <span class="btn-subtext">Stop Garanti ATR Attaché</span>
+                            </div>
+                        </button>
+
+                        <button class="action-btn btn-sell" id="btnSellManual" type="button">
+                            <div class="btn-top">
+                                <span class="btn-action-label">VENDRE</span>
+                                <span class="btn-side-badge">SHORT</span>
+                            </div>
+                            <div class="btn-bottom">
+                                <span class="btn-price font-mono" id="sellPriceSub">4 154.30 $</span>
+                                <span class="btn-subtext">Stop Garanti ATR Attaché</span>
+                            </div>
+                        </button>
+                    </div>
+
+                    <!-- Emergency Liquidation -->
+                    <button class="btn-liquidate" id="btnCloseAll" type="button">
+                        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"/>
+                            <line x1="15" y1="9" x2="9" y2="15"/>
+                            <line x1="9" y1="9" x2="15" y2="15"/>
+                        </svg>
+                        <span>LIQUIDER TOUTES LES POSITIONS OUVERTES</span>
+                    </button>
+
+                    <!-- Algorithmic Settings & Configuration -->
+                    <div class="panel-section">
+                        <h3 class="section-title">PARAMÈTRES D'AUTOMATISATION</h3>
+
+                        <div class="control-row">
+                            <div class="control-info">
+                                <span class="control-label">Moteur Autonome</span>
+                                <span class="control-desc">Autoriser le passage d'ordres sans confirmation</span>
+                            </div>
+                            <label class="luxury-switch">
+                                <input type="checkbox" id="autoTradingToggle" checked>
+                                <span class="switch-slider"></span>
+                            </label>
+                        </div>
+
+                        <div class="control-row">
+                            <div class="control-info">
+                                <span class="control-label">Agressivité de Stratégie</span>
+                                <span class="control-desc">Scalping actif assisté vs Confluence stricte > 60%</span>
+                            </div>
+                            <div class="segmented-control" id="strategyModeGroup">
+                                <button class="seg-btn active" data-mode="active" type="button">Actif (Scalping)</button>
+                                <button class="seg-btn" data-mode="conservative" type="button">Conservateur</button>
+                            </div>
+                        </div>
+
+                        <div class="control-row">
+                            <div class="control-info">
+                                <span class="control-label">Unité de Temps</span>
+                                <span class="control-desc">Période des chandeliers japonais analysés</span>
+                            </div>
+                            <div class="segmented-control" id="timeframeGroup">
+                                <button class="seg-btn" data-tf="MINUTE" type="button">M1</button>
+                                <button class="seg-btn" data-tf="MINUTE_5" type="button">M5</button>
+                                <button class="seg-btn active" data-tf="MINUTE_15" type="button">M15</button>
+                                <button class="seg-btn" data-tf="HOUR" type="button">H1</button>
+                            </div>
+                        </div>
+
+                        <!-- GESTION DU RISQUE & EFFET DE LEVIER -->
+                        <div class="risk-controls-box">
+                            <div class="risk-box-header">
+                                <span class="risk-box-title">DIMENSIONNEMENT & EFFET DE LEVIER</span>
+                                <span class="risk-badge-tag font-mono">CONTRÔLE 1-CLIC & AUTO</span>
+                            </div>
+
+                            <!-- Contrôle 1 : Effet de Levier (jusqu'à 20:1) -->
+                            <div class="risk-control-block">
+                                <div class="risk-label-row">
+                                    <div class="risk-label-left">
+                                        <span class="control-label">Effet de Levier</span>
+                                        <span class="control-desc">Marge requise (Max 20:1 standard ESMA)</span>
+                                    </div>
+                                    <span class="risk-val-badge font-mono" id="leverageValueBadge">20:1</span>
+                                </div>
+                                <input type="range" id="leverageSlider" min="1" max="20" step="1" value="20" class="luxury-range">
+                                <div class="quick-risk-group" id="leverageQuickGroup">
+                                    <button class="btn-micro" data-lev="1" type="button">1:1 (Cash)</button>
+                                    <button class="btn-micro" data-lev="5" type="button">5:1</button>
+                                    <button class="btn-micro" data-lev="10" type="button">10:1</button>
+                                    <button class="btn-micro active" data-lev="20" type="button">20:1 (Max)</button>
+                                </div>
+                            </div>
+
+                            <!-- Contrôle 2 : % du Capital Tradé -->
+                            <div class="risk-control-block">
+                                <div class="risk-label-row">
+                                    <div class="risk-label-left">
+                                        <span class="control-label">% Capital Risqué par Trade</span>
+                                        <span class="control-desc">Perte max tolérée sur Stop Loss</span>
+                                    </div>
+                                    <span class="risk-val-badge font-mono text-gold" id="capitalRiskBadge">1.0 %</span>
+                                </div>
+                                <input type="range" id="capitalRiskSlider" min="0.5" max="10.0" step="0.5" value="1.0" class="luxury-range">
+                                <div class="quick-risk-group" id="capitalQuickGroup">
+                                    <button class="btn-micro" data-cap="0.5" type="button">0.5%</button>
+                                    <button class="btn-micro active" data-cap="1.0" type="button">1.0%</button>
+                                    <button class="btn-micro" data-cap="2.0" type="button">2.0%</button>
+                                    <button class="btn-micro" data-cap="5.0" type="button">5.0%</button>
+                                    <button class="btn-micro" data-cap="10.0" type="button">10.0%</button>
+                                </div>
+                            </div>
+
+                            <!-- Simulation en Direct -->
+                            <div class="risk-simulation-strip font-mono">
+                                <div class="sim-cell">
+                                    <span class="sim-caption">Risque Stop Loss</span>
+                                    <span class="sim-val text-gold" id="liveRiskAmount">~10.04 USD</span>
+                                </div>
+                                <div class="sim-cell">
+                                    <span class="sim-caption">Marge / Lot</span>
+                                    <span class="sim-val text-cyan" id="liveMarginPerLot">~208.20 $</span>
+                                </div>
+                                <div class="sim-cell">
+                                    <span class="sim-caption">Taille Estimée</span>
+                                    <span class="sim-val text-emerald" id="liveEstimatedSize">~0.69 lot(s)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- RIGHT PANEL: MARKET TELEMETRY & QUANTITATIVE ANALYTICS -->
+                <section class="desk-panel analytics-panel">
+                    <div class="panel-header">
+                        <div class="panel-title-wrap">
+                            <h2 class="panel-title">COTATION & ANALYSE QUANTITATIVE</h2>
+                            <span class="panel-tag">TEMPS RÉEL</span>
+                        </div>
+                        <span class="market-status-pill font-mono status-open" id="liveMarketStatus">TRADEABLE</span>
+                    </div>
+
+                    <!-- Primary Gold Spot Rate Block -->
+                    <div class="spot-rate-card">
+                        <div class="spot-primary">
+                            <span class="spot-label">OR AU COMPTANT • GOLD SPOT</span>
+                            <div class="spot-price-row">
+                                <span class="spot-price font-mono" id="liveAsk">4 154.80</span>
+                                <span class="spot-currency">USD / OZ</span>
+                            </div>
+                        </div>
+
+                        <div class="spot-metrics">
+                            <div class="metric-cell">
+                                <span class="metric-caption">ACHAT (ASK)</span>
+                                <span class="metric-val font-mono" id="liveAskSub">4 154.80</span>
+                            </div>
+                            <div class="metric-cell">
+                                <span class="metric-caption">VENTE (BID)</span>
+                                <span class="metric-val font-mono" id="liveBid">4 154.30</span>
+                            </div>
+                            <div class="metric-cell">
+                                <span class="metric-caption">SPREAD</span>
+                                <span class="metric-val font-mono text-cyan" id="liveSpread">0.500 $</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Quantitative Indicators Ribbons -->
+                    <div class="quant-grid">
+                        <div class="quant-card">
+                            <span class="quant-title">TENDANCE EMA (50 / 200)</span>
+                            <div class="quant-body">
+                                <span class="quant-num font-mono" id="emaFastSlow">4151.15 / 4150.86</span>
+                                <span class="state-badge trend-bull" id="trendBadge">HAUSSIÈRE</span>
+                            </div>
+                            <span class="quant-caption">Alignement des moyennes exponentielles</span>
+                        </div>
+
+                        <div class="quant-card">
+                            <span class="quant-title">MOMENTUM RSI (14)</span>
+                            <div class="quant-body">
+                                <span class="quant-num font-mono" id="rsiValue">45.1</span>
+                                <div class="gauge-bar-track">
+                                    <div class="gauge-bar-fill" id="rsiFill" style="width: 45.1%;"></div>
+                                </div>
+                            </div>
+                            <span class="quant-caption">Indicateur de force relative (Wilder)</span>
+                        </div>
+
+                        <div class="quant-card">
+                            <span class="quant-title">VOLATILITÉ ATR (14)</span>
+                            <div class="quant-body">
+                                <span class="quant-num font-mono" id="atrValue">6.86 $</span>
+                                <span class="quant-sub-info font-mono" id="atrDetails">SL ~10.3$ | TP ~20.6$</span>
+                            </div>
+                            <span class="quant-caption">Plage réelle moyenne pour les distances d'ordres</span>
+                        </div>
+
+                        <!-- AI Signal Dispatch -->
+                        <div class="quant-card signal-dispatch-card">
+                            <span class="quant-title">DIRECTIVE DU SIGNAL ALGORITHMIQUE</span>
+                            <div class="signal-headline">
+                                <span class="signal-badge sig-wait" id="signalTag">EN ATTENTE</span>
+                                <span class="signal-reason font-mono" id="signalReason">Surveillance active du carnet d'ordres...</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <!-- ACTIVE POSITIONS LEDGER -->
+            <section class="desk-panel ledger-panel">
+                <div class="panel-header">
+                    <div class="panel-title-wrap">
+                        <h2 class="panel-title">REGISTRE DES POSITIONS OUVERTES</h2>
+                        <span class="badge-count font-mono" id="posCount">0 ACTIVE(S)</span>
+                    </div>
+                    <button class="btn-refresh font-mono" id="btnRefreshPositions" type="button">
+                        <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M23 4v6h-6M1 20v-6h6"/>
+                            <path d="M3.51 9a9 9 0 0114.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0020.49 15"/>
+                        </svg>
+                        <span>ACTUALISER</span>
+                    </button>
+                </div>
+
+                <div class="ledger-table-wrap">
+                    <table class="ledger-table">
+                        <thead>
+                            <tr>
+                                <th>IDENTIFIANT DEAL</th>
+                                <th>ORIENTATION</th>
+                                <th>VOLUME</th>
+                                <th>PRIX ENTRÉE</th>
+                                <th>STOP LOSS</th>
+                                <th>TAKE PROFIT</th>
+                                <th>P&L LATENT</th>
+                                <th class="text-right">GESTION</th>
+                            </tr>
+                        </thead>
+                        <tbody id="positionsTableBody">
+                            <tr class="empty-state-row">
+                                <td colspan="8">
+                                    <div class="empty-state">
+                                        <span class="empty-text">Aucune position active en cours. Le moteur est prêt à intervenir dès confirmation de flux.</span>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <!-- AUDIT LOG FEED -->
+            <section class="desk-panel audit-panel">
+                <div class="panel-header">
+                    <div class="panel-title-wrap">
+                        <h2 class="panel-title">JOURNAL D'AUDIT & D'ACTIVITÉ EN DIRECT</h2>
+                    </div>
+                    <span class="audit-feed-tag font-mono">AUDIT FEED • 256-BIT</span>
+                </div>
+                <div class="audit-terminal font-mono" id="terminalWindow">
+                    <!-- Log streams appended here -->
+                </div>
+            </section>
+        </div>
+
+        <!-- ============================================================ -->
+        <!-- TAB 2 : INTELLIGENCE & PRÉDICTIONS EN DIRECT                  -->
+        <!-- ============================================================ -->
+        <div class="tab-pane" id="paneIntelligence" style="display: none;">
+            
+            <!-- HERO PREDICTIVE SYNTHESIS BANNER -->
+            <div class="intel-hero-card">
+                <div class="intel-header-meta">
+                    <div class="intel-title-group">
+                        <span class="intel-eyebrow font-mono">XAU/USD • CERVEAU DÉCISIONNEL MULTI-FACTORIEL (5 PILIERS)</span>
+                        <h2 class="intel-headline">PRÉDICTIONS EN TEMPS RÉEL & EXPLICABILITÉ COMPLÈTE</h2>
+                    </div>
+                    <span class="intel-sync-time font-mono" id="intelTimestamp">ACTUALISÉ À --:--:--</span>
+                </div>
+
+                <div class="intel-bias-row">
+                    <div class="bias-block">
+                        <span class="bias-caption">BIAIS COMPOSITE GLOBAL</span>
+                        <div class="bias-badge-lg font-mono bias-bull" id="intelCompositeBias">HAUSSIER</div>
+                    </div>
+
+                    <div class="confidence-block">
+                        <span class="bias-caption">INDICE DE CONFIANCE</span>
+                        <div class="confidence-circle font-mono" id="intelConfidence">78%</div>
+                    </div>
+
+                    <!-- Directional Probability Gauge -->
+                    <div class="prob-thermometer">
+                        <div class="prob-labels font-mono">
+                            <span class="text-emerald" id="intelBullProb">72% HAUSSIER</span>
+                            <span class="text-rose" id="intelBearProb">28% BAISSIER</span>
+                        </div>
+                        <div class="prob-track">
+                            <div class="prob-fill-bull" id="intelBullBar" style="width: 72%;"></div>
+                            <div class="prob-fill-bear" id="intelBearBar" style="width: 28%;"></div>
+                        </div>
+                        <span class="prob-caption">Synthèse pondérée : Macro (25%) • Risque/Géo (20%) • Inst (15%) • SMC (30%) • Micro (10%)</span>
+                    </div>
+                </div>
+
+                <!-- Price Targets Grid -->
+                <div class="predictive-targets-grid">
+                    <div class="target-card">
+                        <span class="target-title">CIBLE 1 (INTERMÉDIAIRE)</span>
+                        <span class="target-val font-mono text-gold" id="intelTarget1">4 165.50 $</span>
+                        <span class="target-desc">Extension ATR 1.5x</span>
+                    </div>
+                    <div class="target-card">
+                        <span class="target-title">CIBLE 2 (EXPANSION)</span>
+                        <span class="target-val font-mono text-cyan" id="intelTarget2">4 178.00 $</span>
+                        <span class="target-desc">Extension ATR 3.0x</span>
+                    </div>
+                    <div class="target-card">
+                        <span class="target-title">SEUIL D'INVALIDATION</span>
+                        <span class="target-val font-mono text-rose" id="intelInvalidation">4 138.50 $</span>
+                        <span class="target-desc">Zone de rupture de la thèse</span>
+                    </div>
+                    <div class="target-card">
+                        <span class="target-title">PROCHAIN SEUIL ROND</span>
+                        <span class="target-val font-mono" id="intelNearestRound">4 150.00 $</span>
+                        <span class="target-desc" id="intelRoundDist">Distance : ~4.80 $ (Seuil Majeur)</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- EXPLAINABILITY CONSOLE: WHY IS THE BOT MAKING THIS DECISION? -->
+            <section class="desk-panel explain-panel">
+                <div class="panel-header">
+                    <div class="panel-title-wrap">
+                        <h2 class="panel-title">POURQUOI LE BOT PREND CETTE DÉCISION ?</h2>
+                        <span class="panel-tag">TRANSPARENCE TOTALE DU RAISONNEMENT</span>
+                    </div>
+                    <span class="explain-live-tag font-mono">EXPLAINABILITY FEED</span>
+                </div>
+
+                <div class="explain-body">
+                    <!-- Central Synthesis Quote -->
+                    <div class="decision-synthesis-box">
+                        <div class="synth-icon">
+                            <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/>
+                                <line x1="12" y1="16" x2="12" y2="12"/>
+                                <line x1="12" y1="8" x2="12.01" y2="8"/>
+                            </svg>
+                        </div>
+                        <div class="synth-content">
+                            <span class="synth-title font-mono">DÉCISION DU MOTEUR À CET INSTANT :</span>
+                            <p class="synth-text font-mono" id="intelDecisionSummary">
+                                Analyse en cours des 5 piliers de marché...
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Catalysts 2-Columns Grid -->
+                    <div class="catalysts-grid">
+                        <!-- Positive Catalysts -->
+                        <div class="catalyst-col catalyst-bull">
+                            <div class="cat-col-header">
+                                <span class="cat-dot dot-green"></span>
+                                <span class="cat-col-title">FACTEURS DÉCLENCHEURS FAVORABLES (ACHATS & SOUTIENS)</span>
+                            </div>
+                            <ul class="catalyst-list" id="positiveCatalystsList">
+                                <li>Chargement des catalyseurs macroéconomiques et techniques...</li>
+                            </ul>
+                        </div>
+
+                        <!-- Negative / Risk Catalysts -->
+                        <div class="catalyst-col catalyst-bear">
+                            <div class="cat-col-header">
+                                <span class="cat-dot dot-red"></span>
+                                <span class="cat-col-title">VENTS CONTRAIRES & MOTIFS D'INVALIDATION / PRUDENCE</span>
+                            </div>
+                            <ul class="catalyst-list" id="negativeCatalystsList">
+                                <li>Chargement des risques et alertes de liquidité...</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- THE 5 PILLARS RADAR & CARDS -->
+            <div class="pillars-grid">
+                
+                <!-- Pilier 1 : Macro & Monétaire -->
+                <div class="pillar-card">
+                    <div class="pillar-header">
+                        <span class="pillar-icon">🏛️</span>
+                        <div class="pillar-titles">
+                            <h3 class="pillar-name">1. MACROÉCONOMIE & TAUX RÉELS</h3>
+                            <span class="pillar-sub">US 10Y • DXY • Taux Réels • Fed</span>
+                        </div>
+                        <span class="pillar-score-badge font-mono" id="pillarMacroScore">+45 / 100</span>
+                    </div>
+                    <div class="pillar-gauge-track">
+                        <div class="pillar-gauge-fill" id="pillarMacroBar" style="width: 72%;"></div>
+                    </div>
+                    <div class="pillar-metrics-table">
+                        <div class="p-metric-row">
+                            <span class="p-metric-key">Rendement US 10 Ans (^TNX) :</span>
+                            <span class="p-metric-val font-mono" id="intelTNX">4.25 %</span>
+                        </div>
+                        <div class="p-metric-row">
+                            <span class="p-metric-key">Dollar Index (DXY) :</span>
+                            <span class="p-metric-val font-mono" id="intelDXY">101.89</span>
+                        </div>
+                        <div class="p-metric-row">
+                            <span class="p-metric-key">Taux Réels Estimés (10Y - TIPS) :</span>
+                            <span class="p-metric-val font-mono" id="intelRealRate">1.95 %</span>
+                        </div>
+                        <div class="p-metric-row">
+                            <span class="p-metric-key">Politique Fed & Calendrier :</span>
+                            <span class="p-metric-val font-mono" id="intelFedPolicy">Assouplissement (Dovish)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pilier 2 : Géopolitique & Sentiment de Risque -->
+                <div class="pillar-card">
+                    <div class="pillar-header">
+                        <span class="pillar-icon">🌍</span>
+                        <div class="pillar-titles">
+                            <h3 class="pillar-name">2. GÉOPOLITIQUE & SENTIMENT VIX</h3>
+                            <span class="pillar-sub">Risk-On/Off • Safe Haven • BRICS</span>
+                        </div>
+                        <span class="pillar-score-badge font-mono" id="pillarGeopoliticsScore">+60 / 100</span>
+                    </div>
+                    <div class="pillar-gauge-track">
+                        <div class="pillar-gauge-fill" id="pillarGeopoliticsBar" style="width: 80%;"></div>
+                    </div>
+                    <div class="pillar-metrics-table">
+                        <div class="p-metric-row">
+                            <span class="p-metric-key">Indice Volatilité VIX :</span>
+                            <span class="p-metric-val font-mono" id="intelVIX">15.38 (Risk-On modéré)</span>
+                        </div>
+                        <div class="p-metric-row">
+                            <span class="p-metric-key">Statut Valeur Refuge :</span>
+                            <span class="p-metric-val font-mono" id="intelSafeHaven">Actif & Plébiscité</span>
+                        </div>
+                        <div class="p-metric-row">
+                            <span class="p-metric-key">Dédollarisation & BRICS :</span>
+                            <span class="p-metric-val font-mono" id="intelBrics">Achats physiques hors USD</span>
+                        </div>
+                        <div class="p-metric-row">
+                            <span class="p-metric-key">Crises Bancaires & Dettes :</span>
+                            <span class="p-metric-val font-mono" id="intelBanking">Soutien structurel long terme</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pilier 3 : Flux Institutionnels & Demande Physique -->
+                <div class="pillar-card">
+                    <div class="pillar-header">
+                        <span class="pillar-icon">🏦</span>
+                        <div class="pillar-titles">
+                            <h3 class="pillar-name">3. FLUX INSTITUTIONNELS & PHYSIQUE</h3>
+                            <span class="pillar-sub">Banques Centrales • ETF GLD • Diwali</span>
+                        </div>
+                        <span class="pillar-score-badge font-mono" id="pillarInstScore">+65 / 100</span>
+                    </div>
+                    <div class="pillar-gauge-track">
+                        <div class="pillar-gauge-fill" id="pillarInstBar" style="width: 82%;"></div>
+                    </div>
+                    <div class="pillar-metrics-table">
+                        <div class="p-metric-row">
+                            <span class="p-metric-key">Banques Centrales (PBOC, etc.) :</span>
+                            <span class="p-metric-val font-mono" id="intelCentralBanks">Achats continus records</span>
+                        </div>
+                        <div class="p-metric-row">
+                            <span class="p-metric-key">Flux ETF SPDR Gold (GLD) :</span>
+                            <span class="p-metric-val font-mono" id="intelGLD">380.88 $ (Flux positifs)</span>
+                        </div>
+                        <div class="p-metric-row">
+                            <span class="p-metric-key">Saisonnalité Physique :</span>
+                            <span class="p-metric-val font-mono text-cyan" id="intelSeasonality">Diwali / Mariages Inde</span>
+                        </div>
+                        <div class="p-metric-row">
+                            <span class="p-metric-key">Coût Minier AISC Industriel :</span>
+                            <span class="p-metric-val font-mono" id="intelAISC">~1 420 $ / oz (Marge solide)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pilier 4 : Price Action & Smart Money Concepts (SMC) -->
+                <div class="pillar-card">
+                    <div class="pillar-header">
+                        <span class="pillar-icon">📊</span>
+                        <div class="pillar-titles">
+                            <h3 class="pillar-name">4. PRICE ACTION & SMART MONEY (SMC)</h3>
+                            <span class="pillar-sub">Chandelier • FVG • Chiffres Ronds • PDH/PDL</span>
+                        </div>
+                        <span class="pillar-score-badge font-mono" id="pillarPAScore">+50 / 100</span>
+                    </div>
+                    <div class="pillar-gauge-track">
+                        <div class="pillar-gauge-fill" id="pillarPABar" style="width: 75%;"></div>
+                    </div>
+                    <div class="pillar-metrics-table">
+                        <div class="p-metric-row">
+                            <span class="p-metric-key">Chandelier Détecté :</span>
+                            <span class="p-metric-val font-mono text-gold" id="intelPattern">Marteau de Rejet</span>
+                        </div>
+                        <div class="p-metric-row">
+                            <span class="p-metric-key">Fair Value Gap (FVG) :</span>
+                            <span class="p-metric-val font-mono" id="intelFVG">Non détecté</span>
+                        </div>
+                        <div class="p-metric-row">
+                            <span class="p-metric-key">PDH / PDL (Veille) :</span>
+                            <span class="p-metric-val font-mono" id="intelPDHPDL">4 165.20 / 4 132.10</span>
+                        </div>
+                        <div class="p-metric-row">
+                            <span class="p-metric-key">Divergences RSI (14) :</span>
+                            <span class="p-metric-val font-mono" id="intelDivergence">Aucune divergence active</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pilier 5 : Microstructure, Horaires & Fixings -->
+                <div class="pillar-card">
+                    <div class="pillar-header">
+                        <span class="pillar-icon">⏱️</span>
+                        <div class="pillar-titles">
+                            <h3 class="pillar-name">5. MICROSTRUCTURE & TIMING</h3>
+                            <span class="pillar-sub">Sessions • Overlap • Fixings LBMA • Rollover</span>
+                        </div>
+                        <span class="pillar-score-badge font-mono" id="pillarMicroScore">+30 / 100</span>
+                    </div>
+                    <div class="pillar-gauge-track">
+                        <div class="pillar-gauge-fill" id="pillarMicroBar" style="width: 65%;"></div>
+                    </div>
+                    <div class="pillar-metrics-table">
+                        <div class="p-metric-row">
+                            <span class="p-metric-key">Session en Cours :</span>
+                            <span class="p-metric-val font-mono text-cyan" id="intelActiveSession">Overlap Londres / New York</span>
+                        </div>
+                        <div class="p-metric-row">
+                            <span class="p-metric-key">Profil de Liquidité :</span>
+                            <span class="p-metric-val font-mono" id="intelSessionProfile">Pic Journalier de Volatilité</span>
+                        </div>
+                        <div class="p-metric-row">
+                            <span class="p-metric-key">Fixings Or Londres (LBMA) :</span>
+                            <span class="p-metric-val font-mono" id="intelLBMA">10h30 & 15h00 GMT</span>
+                        </div>
+                        <div class="p-metric-row">
+                            <span class="p-metric-key">Filtre Rollover (23h-00h Paris) :</span>
+                            <span class="p-metric-val font-mono text-emerald" id="intelRolloverStatus">Normal (Marché Ouvert)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- NOTIFICATION SYSTEM -->
+    <div class="toast-hub" id="toastContainer"></div>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>
